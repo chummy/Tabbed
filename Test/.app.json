@@ -1,0 +1,19 @@
+{
+  "type": "nativescript-angular",
+  "views": [
+    {
+      "type": "nativescript-angular:view",
+      "name": "homeView",
+      "components": [],
+      "title": "Home View",
+      "addToNavigation": true,
+      "icon": "home"
+    }
+  ],
+  "transition": "none",
+  "dataProviders": [],
+  "name": "nativeScriptApp",
+  "navigation": "drawer",
+  "view": "homeView",
+  "skin": "core.light"
+}

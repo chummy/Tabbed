@@ -1,0 +1,14 @@
+<RadSideDrawer>
+  <StackLayout tkDrawerContent class="sidedrawer-left">
+    <StackLayout class="sidedrawer-content">
+      <GridLayout *ngFor="let item of navigationItems" class="sidedrawer-list-item" rows="auto, auto" columns="auto, *" [nsRouterLink]="[item.path]">
+          <Label class="sidedrawer-list-item-icon fa" [text]="item.icon"></Label>
+          <Label class="sidedrawer-list-item-text" col="1" [text]="item.title"></Label>
+        </GridLayout>
+    </StackLayout>
+  </StackLayout>
+
+  <GridLayout tkMainContent>
+    <router-outlet></router-outlet>
+  </GridLayout>
+</RadSideDrawer>
