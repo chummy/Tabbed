@@ -38,7 +38,6 @@ export class NavigationService {
             { path: "patientsDetailView", title: "My Patients", icon: "\uf2c3" },
 { path: "formView", title: "Form", icon: "\uf02e" },
 { path: "userDetailView", title: "User Detail", icon: "\uf2be" },
-{ path: "commentsDetailView", title: "Comments Detail", icon: "\uf2c3" },
 { path: "aboutView", title: "About", icon: "\uf05a" },
 { path: "login", title: "Login", icon: "\uf2be" },
 /// navigation routes

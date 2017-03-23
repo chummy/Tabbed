@@ -205,43 +205,6 @@
     },
     {
       "type": "nativescript-angular:view",
-      "name": "commentsDetailView",
-      "components": [
-        {
-          "type": "nativescript-angular:editableList",
-          "serverSideSorting": false,
-          "serverSidePaging": false,
-          "listExtraFields": [],
-          "detailExtraFields": [],
-          "addScreenExtraFields": [],
-          "editScreenExtraFields": [],
-          "components": [],
-          "name": "commentsDetailViewModel",
-          "dataProvider": "backendServices",
-          "collection": "Activities",
-          "headerField": "Text",
-          "subHeaderField": "UserId",
-          "isMapView": false,
-          "addItemForm": false,
-          "editItemForm": false,
-          "deleteItemButton": false,
-          "pullToRefresh": false,
-          "endlessScroll": false,
-          "itemActionView": "userDetailView",
-          "itemActionPrimaryKey": "Id",
-          "itemActionSecondaryKey": "Username",
-          "detailHeaderFieldSource": "dataBound",
-          "detailHeaderField": "Text",
-          "detailSubHeaderField": "Text",
-          "detailDescriptionField": "UserId"
-        }
-      ],
-      "title": "Comments Detail",
-      "addToNavigation": true,
-      "icon": "organize"
-    },
-    {
-      "type": "nativescript-angular:view",
       "name": "aboutView",
       "components": [
         {
