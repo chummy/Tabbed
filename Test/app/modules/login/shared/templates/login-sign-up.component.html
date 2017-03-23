@@ -1,0 +1,16 @@
+<StackLayout class="form">
+    <GridLayout class="input-field" columns="*, *">
+        <Label class="h3 text-muted" text="Email"></Label>
+        <TextField class="input" col="1" [(ngModel)]="selectedUser.username" hint=""></TextField>
+    </GridLayout>
+
+    <GridLayout class="input-field" columns="*, *">
+        <Label class="h3 text-muted" text="Password"></Label>
+        <TextField class="input" col="1" [(ngModel)]="selectedUser.password" hint="" secure="true"></TextField>
+    </GridLayout>
+
+    <GridLayout rows="auto, 5, auto">
+        <Button class="btn btn-primary" text="Register" (tap)="onSignUp()"></Button>
+        <Label class="h4 text-center text-primary" row="2" text="Login" (tap)="onNavigate()"></Label>
+    </GridLayout>
+</StackLayout>

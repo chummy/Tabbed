@@ -4,4 +4,5 @@ function __export(m) {
 }
 __export(require("./navigation-modes.enum"));
 /// placeholder for other enums
+__export(require("./modes.enum"));
 //# sourceMappingURL=index.js.map

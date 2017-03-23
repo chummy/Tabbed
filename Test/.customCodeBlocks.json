@@ -1,0 +1,284 @@
+{
+    "customCode": [
+        {
+            "tag": "patientsDetailViewModelComponentImports",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentImports\n\n// END_CUSTOM_CODE_patientsDetailViewModelComponentImports"
+        },
+        {
+            "tag": "patientsDetailViewModelComponentProperties",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentProperties\n\n    // END_CUSTOM_CODE_patientsDetailViewModelComponentProperties"
+        },
+        {
+            "tag": "patientsDetailViewModelComponentConstructorDependencies",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentConstructorDependencies\n\n        // END_CUSTOM_CODE_patientsDetailViewModelComponentConstructorDependencies"
+        },
+        {
+            "tag": "patientsDetailViewModelComponentConstructorMethod",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentConstructorMethod\n\n        // END_CUSTOM_CODE_patientsDetailViewModelComponentConstructorMethod"
+        },
+        {
+            "tag": "patientsDetailViewModelComponentOnInit",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentOnInit\n\n        // END_CUSTOM_CODE_patientsDetailViewModelComponentOnInit"
+        },
+        {
+            "tag": "patientsDetailViewModelComponentCustomLoad",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentCustomLoad\n\n                    // END_CUSTOM_CODE_patientsDetailViewModelComponentCustomLoad"
+        },
+        {
+            "tag": "patientsDetailViewModelComponentAdditionalMethods",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsDetailViewModelComponentAdditionalMethods"
+        },
+        {
+            "tag": "patientsDetailViewModelModuleImports",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelModuleImports\n\n// END_CUSTOM_CODE_patientsDetailViewModelModuleImports"
+        },
+        {
+            "tag": "patientsDetailViewModelModuleImportDeclaration",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelModuleImportDeclaration\n\n        // END_CUSTOM_CODE_patientsDetailViewModelModuleImportDeclaration"
+        },
+        {
+            "tag": "patientsDetailViewModelComponentDeclarations",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentDeclarations\n\n        // END_CUSTOM_CODE_patientsDetailViewModelComponentDeclarations"
+        },
+        {
+            "tag": "patientsDetailViewModelModuleProviders",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelModuleProviders\n\n        // END_CUSTOM_CODE_patientsDetailViewModelModuleProviders"
+        },
+        {
+            "tag": "patientsDetailViewModelServiceImports",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelServiceImports\n\n// END_CUSTOM_CODE_patientsDetailViewModelServiceImports"
+        },
+        {
+            "tag": "patientsDetailViewModelServiceAdditionalProperties",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelServiceAdditionalProperties\n\n    // END_CUSTOM_CODE_patientsDetailViewModelServiceAdditionalProperties"
+        },
+        {
+            "tag": "patientsDetailViewModelServiceConstructorDependencies",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelServiceConstructorDependencies\n\n        // END_CUSTOM_CODE_patientsDetailViewModelServiceConstructorDependencies"
+        },
+        {
+            "tag": "patientsDetailViewModelServiceConstructorMethods",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelServiceConstructorMethods\n\n        // END_CUSTOM_CODE_patientsDetailViewModelServiceConstructorMethods"
+        },
+        {
+            "tag": "patientsDetailViewModelServiceAdditionalMethods",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelServiceAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsDetailViewModelServiceAdditionalMethods"
+        },
+        {
+            "tag": "patientsDetailViewModelDetailComponentProperties",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelDetailComponentProperties\n\n    // END_CUSTOM_CODE_patientsDetailViewModelDetailComponentProperties"
+        },
+        {
+            "tag": "patientsDetailViewModelDetailComponentAdditionalMethods",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelDetailComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsDetailViewModelDetailComponentAdditionalMethods"
+        },
+        {
+            "tag": "formViewModelComponentImports",
+            "block": "// START_CUSTOM_CODE_formViewModelComponentImports\n\n// END_CUSTOM_CODE_formViewModelComponentImports"
+        },
+        {
+            "tag": "formViewModelComponentProperties",
+            "block": "// START_CUSTOM_CODE_formViewModelComponentProperties\n\n    // END_CUSTOM_CODE_formViewModelComponentProperties"
+        },
+        {
+            "tag": "formViewModelComponentConstructorDependencies",
+            "block": "// START_CUSTOM_CODE_formViewModelComponentConstructorDependencies\n\n        // END_CUSTOM_CODE_formViewModelComponentConstructorDependencies"
+        },
+        {
+            "tag": "formViewModelComponentConstructorMethod",
+            "block": "// START_CUSTOM_CODE_formViewModelComponentConstructorMethod\n\n        // END_CUSTOM_CODE_formViewModelComponentConstructorMethod"
+        },
+        {
+            "tag": "formViewModelComponentOnInit",
+            "block": "// START_CUSTOM_CODE_formViewModelComponentOnInit\n\n        // END_CUSTOM_CODE_formViewModelComponentOnInit"
+        },
+        {
+            "tag": "formViewModelComponentOnConfirm",
+            "block": "// START_CUSTOM_CODE_formViewModelComponentOnConfirm\n\n        // END_CUSTOM_CODE_formViewModelComponentOnConfirm"
+        },
+        {
+            "tag": "formViewModelComponentOnCancel",
+            "block": "// START_CUSTOM_CODE_formViewModelComponentOnCancel\n\n        // END_CUSTOM_CODE_formViewModelComponentOnCancel"
+        },
+        {
+            "tag": "formViewModelComponentAdditionalMethods",
+            "block": "// START_CUSTOM_CODE_formViewModelComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_formViewModelComponentAdditionalMethods"
+        },
+        {
+            "tag": "formViewModelModuleImports",
+            "block": "// START_CUSTOM_CODE_formViewModelModuleImports\n\n// END_CUSTOM_CODE_formViewModelModuleImports"
+        },
+        {
+            "tag": "formViewModelModuleImportDeclarations",
+            "block": "// START_CUSTOM_CODE_formViewModelModuleImportDeclarations\n\n        // END_CUSTOM_CODE_formViewModelModuleImportDeclarations"
+        },
+        {
+            "tag": "formViewModelModuleProviders",
+            "block": "// START_CUSTOM_CODE_formViewModelModuleProviders\n\n        // END_CUSTOM_CODE_formViewModelModuleProviders"
+        },
+        {
+            "tag": "formViewModelServiceImports",
+            "block": "// START_CUSTOM_CODE_formViewModelServiceImports\n\n// END_CUSTOM_CODE_formViewModelServiceImports"
+        },
+        {
+            "tag": "formViewModelServiceAdditionalProperties",
+            "block": "// START_CUSTOM_CODE_formViewModelServiceAdditionalProperties\n\n    // END_CUSTOM_CODE_formViewModelServiceAdditionalProperties"
+        },
+        {
+            "tag": "formViewModelServiceConstructorDependencies",
+            "block": "// START_CUSTOM_CODE_formViewModelServiceConstructorDependencies\n\n        // END_CUSTOM_CODE_formViewModelServiceConstructorDependencies"
+        },
+        {
+            "tag": "formViewModelServiceConstructorMethod",
+            "block": "// START_CUSTOM_CODE_formViewModelServiceConstructorMethod\n\n        // END_CUSTOM_CODE_formViewModelServiceConstructorMethod"
+        },
+        {
+            "tag": "formViewModelServiceAdditionalMethods",
+            "block": "// START_CUSTOM_CODE_formViewModelServiceAdditionalMethods\n\n    // END_CUSTOM_CODE_formViewModelServiceAdditionalMethods"
+        },
+        {
+            "tag": "userDetailViewModelComponentImports",
+            "block": "// START_CUSTOM_CODE_userDetailViewModelComponentImports\n\n// END_CUSTOM_CODE_userDetailViewModelComponentImports"
+        },
+        {
+            "tag": "userDetailViewModelComponentProperties",
+            "block": "// START_CUSTOM_CODE_userDetailViewModelComponentProperties\n\n    // END_CUSTOM_CODE_userDetailViewModelComponentProperties"
+        },
+        {
+            "tag": "userDetailViewModelComponentConstructorDependencies",
+            "block": "// START_CUSTOM_CODE_userDetailViewModelComponentConstructorDependencies\n\n        // END_CUSTOM_CODE_userDetailViewModelComponentConstructorDependencies"
+        },
+        {
+            "tag": "userDetailViewModelComponentConstructorMethod",
+            "block": "// START_CUSTOM_CODE_userDetailViewModelComponentConstructorMethod\n\n        // END_CUSTOM_CODE_userDetailViewModelComponentConstructorMethod"
+        },
+        {
+            "tag": "userDetailViewModelComponentOnInit",
+            "block": "// START_CUSTOM_CODE_userDetailViewModelComponentOnInit\n\n        // END_CUSTOM_CODE_userDetailViewModelComponentOnInit"
+        },
+        {
+            "tag": "userDetailViewModelComponentCustomLoad",
+            "block": "// START_CUSTOM_CODE_userDetailViewModelComponentCustomLoad\n\n                    // END_CUSTOM_CODE_userDetailViewModelComponentCustomLoad"
+        },
+        {
+            "tag": "userDetailViewModelComponentAdditionalMethods",
+            "block": "// START_CUSTOM_CODE_userDetailViewModelComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_userDetailViewModelComponentAdditionalMethods"
+        },
+        {
+            "tag": "userDetailViewModelModuleImports",
+            "block": "// START_CUSTOM_CODE_userDetailViewModelModuleImports\n\n// END_CUSTOM_CODE_userDetailViewModelModuleImports"
+        },
+        {
+            "tag": "userDetailViewModelModuleImportDeclaration",
+            "block": "// START_CUSTOM_CODE_userDetailViewModelModuleImportDeclaration\n\n        // END_CUSTOM_CODE_userDetailViewModelModuleImportDeclaration"
+        },
+        {
+            "tag": "userDetailViewModelComponentDeclarations",
+            "block": "// START_CUSTOM_CODE_userDetailViewModelComponentDeclarations\n\n        // END_CUSTOM_CODE_userDetailViewModelComponentDeclarations"
+        },
+        {
+            "tag": "userDetailViewModelModuleProviders",
+            "block": "// START_CUSTOM_CODE_userDetailViewModelModuleProviders\n\n        // END_CUSTOM_CODE_userDetailViewModelModuleProviders"
+        },
+        {
+            "tag": "userDetailViewModelServiceImports",
+            "block": "// START_CUSTOM_CODE_userDetailViewModelServiceImports\n\n// END_CUSTOM_CODE_userDetailViewModelServiceImports"
+        },
+        {
+            "tag": "userDetailViewModelServiceAdditionalProperties",
+            "block": "// START_CUSTOM_CODE_userDetailViewModelServiceAdditionalProperties\n\n    // END_CUSTOM_CODE_userDetailViewModelServiceAdditionalProperties"
+        },
+        {
+            "tag": "userDetailViewModelServiceConstructorDependencies",
+            "block": "// START_CUSTOM_CODE_userDetailViewModelServiceConstructorDependencies\n\n        // END_CUSTOM_CODE_userDetailViewModelServiceConstructorDependencies"
+        },
+        {
+            "tag": "userDetailViewModelServiceConstructorMethods",
+            "block": "// START_CUSTOM_CODE_userDetailViewModelServiceConstructorMethods\n\n        // END_CUSTOM_CODE_userDetailViewModelServiceConstructorMethods"
+        },
+        {
+            "tag": "userDetailViewModelServiceAdditionalMethods",
+            "block": "// START_CUSTOM_CODE_userDetailViewModelServiceAdditionalMethods\n\n    // END_CUSTOM_CODE_userDetailViewModelServiceAdditionalMethods"
+        },
+        {
+            "tag": "userDetailViewModelDetailComponentProperties",
+            "block": "// START_CUSTOM_CODE_userDetailViewModelDetailComponentProperties\n\n    // END_CUSTOM_CODE_userDetailViewModelDetailComponentProperties"
+        },
+        {
+            "tag": "userDetailViewModelDetailComponentAdditionalMethods",
+            "block": "// START_CUSTOM_CODE_userDetailViewModelDetailComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_userDetailViewModelDetailComponentAdditionalMethods"
+        },
+        {
+            "tag": "commentsDetailViewModelComponentImports",
+            "block": "// START_CUSTOM_CODE_commentsDetailViewModelComponentImports\n\n// END_CUSTOM_CODE_commentsDetailViewModelComponentImports"
+        },
+        {
+            "tag": "commentsDetailViewModelComponentProperties",
+            "block": "// START_CUSTOM_CODE_commentsDetailViewModelComponentProperties\n\n    // END_CUSTOM_CODE_commentsDetailViewModelComponentProperties"
+        },
+        {
+            "tag": "commentsDetailViewModelComponentConstructorDependencies",
+            "block": "// START_CUSTOM_CODE_commentsDetailViewModelComponentConstructorDependencies\n\n        // END_CUSTOM_CODE_commentsDetailViewModelComponentConstructorDependencies"
+        },
+        {
+            "tag": "commentsDetailViewModelComponentConstructorMethod",
+            "block": "// START_CUSTOM_CODE_commentsDetailViewModelComponentConstructorMethod\n\n        // END_CUSTOM_CODE_commentsDetailViewModelComponentConstructorMethod"
+        },
+        {
+            "tag": "commentsDetailViewModelComponentOnInit",
+            "block": "// START_CUSTOM_CODE_commentsDetailViewModelComponentOnInit\n\n        // END_CUSTOM_CODE_commentsDetailViewModelComponentOnInit"
+        },
+        {
+            "tag": "commentsDetailViewModelComponentCustomLoad",
+            "block": "// START_CUSTOM_CODE_commentsDetailViewModelComponentCustomLoad\n\n                    // END_CUSTOM_CODE_commentsDetailViewModelComponentCustomLoad"
+        },
+        {
+            "tag": "commentsDetailViewModelComponentAdditionalMethods",
+            "block": "// START_CUSTOM_CODE_commentsDetailViewModelComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_commentsDetailViewModelComponentAdditionalMethods"
+        },
+        {
+            "tag": "commentsDetailViewModelModuleImports",
+            "block": "// START_CUSTOM_CODE_commentsDetailViewModelModuleImports\n\n// END_CUSTOM_CODE_commentsDetailViewModelModuleImports"
+        },
+        {
+            "tag": "commentsDetailViewModelModuleImportDeclaration",
+            "block": "// START_CUSTOM_CODE_commentsDetailViewModelModuleImportDeclaration\n\n        // END_CUSTOM_CODE_commentsDetailViewModelModuleImportDeclaration"
+        },
+        {
+            "tag": "commentsDetailViewModelComponentDeclarations",
+            "block": "// START_CUSTOM_CODE_commentsDetailViewModelComponentDeclarations\n\n        // END_CUSTOM_CODE_commentsDetailViewModelComponentDeclarations"
+        },
+        {
+            "tag": "commentsDetailViewModelModuleProviders",
+            "block": "// START_CUSTOM_CODE_commentsDetailViewModelModuleProviders\n\n        // END_CUSTOM_CODE_commentsDetailViewModelModuleProviders"
+        },
+        {
+            "tag": "commentsDetailViewModelServiceImports",
+            "block": "// START_CUSTOM_CODE_commentsDetailViewModelServiceImports\n\n// END_CUSTOM_CODE_commentsDetailViewModelServiceImports"
+        },
+        {
+            "tag": "commentsDetailViewModelServiceAdditionalProperties",
+            "block": "// START_CUSTOM_CODE_commentsDetailViewModelServiceAdditionalProperties\n\n    // END_CUSTOM_CODE_commentsDetailViewModelServiceAdditionalProperties"
+        },
+        {
+            "tag": "commentsDetailViewModelServiceConstructorDependencies",
+            "block": "// START_CUSTOM_CODE_commentsDetailViewModelServiceConstructorDependencies\n\n        // END_CUSTOM_CODE_commentsDetailViewModelServiceConstructorDependencies"
+        },
+        {
+            "tag": "commentsDetailViewModelServiceConstructorMethods",
+            "block": "// START_CUSTOM_CODE_commentsDetailViewModelServiceConstructorMethods\n\n        // END_CUSTOM_CODE_commentsDetailViewModelServiceConstructorMethods"
+        },
+        {
+            "tag": "commentsDetailViewModelServiceAdditionalMethods",
+            "block": "// START_CUSTOM_CODE_commentsDetailViewModelServiceAdditionalMethods\n\n    // END_CUSTOM_CODE_commentsDetailViewModelServiceAdditionalMethods"
+        },
+        {
+            "tag": "commentsDetailViewModelDetailComponentProperties",
+            "block": "// START_CUSTOM_CODE_commentsDetailViewModelDetailComponentProperties\n\n    // END_CUSTOM_CODE_commentsDetailViewModelDetailComponentProperties"
+        },
+        {
+            "tag": "commentsDetailViewModelDetailComponentAdditionalMethods",
+            "block": "// START_CUSTOM_CODE_commentsDetailViewModelDetailComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_commentsDetailViewModelDetailComponentAdditionalMethods"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+<GridLayout rows="*, auto">
+    <ListView class="list-group" [items]="items">
+        <template let-item="item">
+            <GridLayout class="list-group-item" rows="auto, auto" (tap)="onSelect(item)">
+                <GridLayout columns="auto, 10, *" rows="auto, auto">
+
+
+                    <StackLayout col="2">
+
+                        <Label class="list-group-item-heading" [text]="item.data.PatMPIDField"></Label>
+
+
+                    </StackLayout>
+                </GridLayout>
+
+                <GridLayout row="1">
+
+                    <StackLayout class="form">
+                        <GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Text Block"></Label>
+
+    <Label #nameTextBlock class="paragraph h3" col="1" [text]="item.data.NameField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Text Block"></Label>
+
+    <Label #surnameTextBlock class="paragraph h3" col="1" [text]="item.data.SurnameField" textWrap="true"></Label>
+
+</GridLayout><!--- editableListForm35 additional fields -->
+                    </StackLayout>
+                    <!--- master detail form -->
+
+                </GridLayout>
+            </GridLayout>
+        </template>
+    </ListView>
+
+
+    <ActivityIndicator class="activity-indicator" rowSpan="2" [busy]="!items.length" [visibility]="items.length ? 'collapse' : 'visible'">
+    </ActivityIndicator>
+</GridLayout>

@@ -6,35 +6,36 @@ var common = require("./");
 var SharedModule = (function () {
     function SharedModule() {
     }
-    SharedModule = __decorate([
-        core_1.NgModule({
-            imports: [
-                platform_1.NativeScriptModule,
-                forms_1.NativeScriptFormsModule
-            ],
-            declarations: [
-                /// additional declarations
-                common.ActionBarComponent,
-                common.IfAndroidDirective,
-                common.IfIosDirective,
-                common.HyperlinkDirective
-            ],
-            exports: [
-                /// additional exports
-                common.ActionBarComponent,
-                common.IfAndroidDirective,
-                common.IfIosDirective,
-                common.HyperlinkDirective
-            ],
-            providers: [
-                /// additional services
-                common.NavigationService,
-                common.NotificationService
-            ]
-        }), 
-        __metadata('design:paramtypes', [])
-    ], SharedModule);
     return SharedModule;
 }());
+SharedModule = __decorate([
+    core_1.NgModule({
+        imports: [
+            platform_1.NativeScriptModule,
+            forms_1.NativeScriptFormsModule
+        ],
+        declarations: [
+            /// additional declarations
+            common.ActionBarComponent,
+            common.IfAndroidDirective,
+            common.IfIosDirective,
+            common.HyperlinkDirective
+        ],
+        exports: [
+            /// additional exports
+            common.ActionBarComponent,
+            common.IfAndroidDirective,
+            common.IfIosDirective,
+            common.HyperlinkDirective
+        ],
+        providers: [
+            /// additional services
+            common.backendServicesService,
+            common.NavigationService,
+            common.NotificationService
+        ]
+    }),
+    __metadata("design:paramtypes", [])
+], SharedModule);
 exports.SharedModule = SharedModule;
 //# sourceMappingURL=shared.module.js.map

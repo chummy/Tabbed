@@ -12,6 +12,7 @@ import {
 }
 from "nativescript-angular/router";
 /// additional imports
+import { registerElement } from "nativescript-angular/element-registry";
 
 import {
     appRoutes
@@ -23,11 +24,13 @@ import {
 from "./app.component";
 
 /// additional required modules
+const mapbox = require("nativescript-mapbox");
+registerElement("Mapbox", () => mapbox.Mapbox);
 
 import {
-    DrawerMenuModule as NavigationModule
+    TabstripMenuModule as NavigationModule
 }
-from "./navigation/drawer/drawer.module";
+from "./navigation/tabstrip/tabstrip.module";
 
 @
 NgModule({

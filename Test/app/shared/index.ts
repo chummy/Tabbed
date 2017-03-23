@@ -4,3 +4,4 @@ export * from "./components";
 export * from "./models";
 export * from "./services";
 /// placeholder for other exports
+export * from "./providers";

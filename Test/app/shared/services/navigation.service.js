@@ -7,9 +7,14 @@ var NavigationService = (function () {
     function NavigationService(_router) {
         this._router = _router;
         this._modes = enums_1.NavigationModes;
-        this._mode = this._modes.DRAWER;
+        this._mode = this._modes.TABSTRIP;
         this._routes = [
-            { path: "homeView", title: "Home View", icon: "\uf015" },
+            { path: "patientsDetailView", title: "My Patients", icon: "\uf2c3" },
+            { path: "formView", title: "Form", icon: "\uf02e" },
+            { path: "userDetailView", title: "User Detail", icon: "\uf2be" },
+            { path: "commentsDetailView", title: "Comments Detail", icon: "\uf2c3" },
+            { path: "aboutView", title: "About", icon: "\uf05a" },
+            { path: "login", title: "Login", icon: "\uf2be" },
         ];
         this._openDrawer$ = new rxjs_1.BehaviorSubject(false);
     }
@@ -43,12 +48,12 @@ var NavigationService = (function () {
     NavigationService.prototype.toggleDrawer = function () {
         this._openDrawer$.next(!this._openDrawer$.getValue());
     };
-    NavigationService = __decorate([
-        core_1.Injectable(), 
-        __metadata('design:paramtypes', [(typeof (_a = typeof router_1.Router !== 'undefined' && router_1.Router) === 'function' && _a) || Object])
-    ], NavigationService);
     return NavigationService;
-    var _a;
 }());
+NavigationService = __decorate([
+    core_1.Injectable(),
+    __metadata("design:paramtypes", [typeof (_a = typeof router_1.Router !== "undefined" && router_1.Router) === "function" && _a || Object])
+], NavigationService);
 exports.NavigationService = NavigationService;
+var _a;
 //# sourceMappingURL=navigation.service.js.map

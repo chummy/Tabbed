@@ -3,17 +3,314 @@
   "views": [
     {
       "type": "nativescript-angular:view",
-      "name": "homeView",
-      "components": [],
-      "title": "Home View",
+      "name": "patientsDetailView",
+      "components": [
+        {
+          "type": "nativescript-angular:editableList",
+          "serverSideSorting": false,
+          "serverSidePaging": false,
+          "listExtraFields": [],
+          "detailExtraFields": [],
+          "addScreenExtraFields": [],
+          "editScreenExtraFields": [],
+          "components": [
+            {
+              "type": "nativescript-angular:editableListForm",
+              "components": [
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "textBlock",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Text Block",
+                  "inputType": "textBlock",
+                  "titlePosition": "left",
+                  "dataBindingOptional": "SurnameField"
+                }
+              ],
+              "name": "editableListForm37",
+              "formType": "detail"
+            },
+            {
+              "type": "nativescript-angular:editableListForm",
+              "components": [
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "nameTextBlock",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Text Block",
+                  "inputType": "textBlock",
+                  "titlePosition": "left",
+                  "dataBindingOptional": "NameField"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "surnameTextBlock",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Text Block",
+                  "inputType": "textBlock",
+                  "titlePosition": "left",
+                  "dataBindingOptional": "SurnameField"
+                }
+              ],
+              "name": "editableListForm35",
+              "formType": "list"
+            }
+          ],
+          "name": "patientsDetailViewModel",
+          "dataProvider": "backendServices",
+          "collection": "Patients",
+          "headerField": "PatMPIDField",
+          "isMapView": false,
+          "addItemForm": false,
+          "editItemForm": false,
+          "deleteItemButton": false,
+          "pullToRefresh": false,
+          "endlessScroll": false,
+          "detailHeaderFieldSource": "dataBound",
+          "detailHeaderField": "NameField",
+          "detailSubHeaderField": "NameField"
+        }
+      ],
+      "title": "My Patients",
       "addToNavigation": true,
-      "icon": "home"
+      "icon": "organize"
+    },
+    {
+      "type": "nativescript-angular:view",
+      "name": "formView",
+      "components": [
+        {
+          "type": "nativescript-angular:form",
+          "components": [
+            {
+              "type": "nativescript-angular:editableListForm",
+              "components": [
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "textField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Name",
+                  "inputType": "text",
+                  "titlePosition": "left",
+                  "inputTextType": "text",
+                  "placeholder": "Enter name",
+                  "dataBinding": "DisplayName"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "textField1",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Email Address",
+                  "inputType": "text",
+                  "titlePosition": "left",
+                  "inputTextType": "text",
+                  "placeholder": "Enter email address",
+                  "dataBinding": "Email"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "textField2",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Password",
+                  "inputType": "text",
+                  "titlePosition": "left",
+                  "inputTextType": "text",
+                  "placeholder": "Enter password",
+                  "dataBinding": "Password"
+                }
+              ],
+              "name": "editableListForm1",
+              "formType": "add"
+            }
+          ],
+          "name": "formViewModel",
+          "enableDataBinding": true,
+          "dataProvider": "backendServices",
+          "collection": "Users",
+          "submitButton": "Confirm",
+          "cancelButton": "Cancel"
+        }
+      ],
+      "title": "Form",
+      "addToNavigation": true,
+      "icon": "bookmarks"
+    },
+    {
+      "type": "nativescript-angular:view",
+      "name": "userDetailView",
+      "components": [
+        {
+          "type": "nativescript-angular:editableList",
+          "serverSideSorting": false,
+          "serverSidePaging": false,
+          "listExtraFields": [],
+          "detailExtraFields": [],
+          "addScreenExtraFields": [],
+          "editScreenExtraFields": [],
+          "components": [
+            {
+              "type": "nativescript-angular:editableListForm",
+              "components": [
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "textField1",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Text field",
+                  "inputType": "text",
+                  "titlePosition": "left",
+                  "inputTextType": "text",
+                  "placeholder": "Type here ...",
+                  "dataBinding": "DisplayName"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "textField2",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Text field",
+                  "inputType": "text",
+                  "titlePosition": "left",
+                  "inputTextType": "text",
+                  "placeholder": "Type here ...",
+                  "dataBinding": "Email"
+                }
+              ],
+              "name": "editableListForm19",
+              "formType": "add"
+            }
+          ],
+          "name": "userDetailViewModel",
+          "dataProvider": "backendServices",
+          "collection": "Users",
+          "headerField": "DisplayName",
+          "subHeaderField": "Email",
+          "isMapView": false,
+          "addItemForm": true,
+          "addScreenHeaderValue": "Create",
+          "editItemForm": true,
+          "editScreenHeaderSource": "dataBound",
+          "editScreenHeaderField": "DisplayName",
+          "deleteItemButton": true,
+          "deleteItemConfirmation": true,
+          "pullToRefresh": false,
+          "endlessScroll": false,
+          "detailHeaderFieldSource": "dataBound",
+          "detailHeaderField": "DisplayName",
+          "detailSubHeaderField": "DisplayName",
+          "detailDescriptionField": "Identity"
+        }
+      ],
+      "title": "User Detail",
+      "addToNavigation": true,
+      "icon": "contacts"
+    },
+    {
+      "type": "nativescript-angular:view",
+      "name": "commentsDetailView",
+      "components": [
+        {
+          "type": "nativescript-angular:editableList",
+          "serverSideSorting": false,
+          "serverSidePaging": false,
+          "listExtraFields": [],
+          "detailExtraFields": [],
+          "addScreenExtraFields": [],
+          "editScreenExtraFields": [],
+          "components": [],
+          "name": "commentsDetailViewModel",
+          "dataProvider": "backendServices",
+          "collection": "Activities",
+          "headerField": "Text",
+          "subHeaderField": "UserId",
+          "isMapView": false,
+          "addItemForm": false,
+          "editItemForm": false,
+          "deleteItemButton": false,
+          "pullToRefresh": false,
+          "endlessScroll": false,
+          "itemActionView": "userDetailView",
+          "itemActionPrimaryKey": "Id",
+          "itemActionSecondaryKey": "Username",
+          "detailHeaderFieldSource": "dataBound",
+          "detailHeaderField": "Text",
+          "detailSubHeaderField": "Text",
+          "detailDescriptionField": "UserId"
+        }
+      ],
+      "title": "Comments Detail",
+      "addToNavigation": true,
+      "icon": "organize"
+    },
+    {
+      "type": "nativescript-angular:view",
+      "name": "aboutView",
+      "components": [
+        {
+          "type": "nativescript-angular:about",
+          "name": "aboutViewModel",
+          "appName": "My App",
+          "appVersion": "Version 1",
+          "appIcon": "0e9e66a94df50e45835c1648ec2cf472.jpg",
+          "appDescription": "App description",
+          "contactButton": true,
+          "contactLabel": "Contact us",
+          "contactMail": "support@example.com",
+          "facebookButton": true,
+          "facebookLabel": "Like us on Facebook",
+          "facebookLink": "https://www.facebook.com/Telerik",
+          "twitterButton": true,
+          "twitterLabel": "Follow us on Twitter",
+          "twitterLink": "https://twitter.com/telerik"
+        }
+      ],
+      "title": "About",
+      "addToNavigation": true,
+      "icon": "info"
+    },
+    {
+      "type": "nativescript-angular:view",
+      "name": "login",
+      "components": [
+        {
+          "type": "nativescript-angular:authentication",
+          "name": "loginModel",
+          "dataProvider": "backendServices",
+          "enableRegistration": true,
+          "gotoRegisterLabel": "Register",
+          "registerEmailLabel": "Email",
+          "registerPasswordLabel": "Password",
+          "registerNameLabel": "Name",
+          "registerLabel": "Register",
+          "registerRedirect": "patientsDetailView",
+          "gotoSigninLabel": "Login",
+          "enableLogout": true,
+          "logoutLabel": "Logout",
+          "enableRememberme": true,
+          "remembermeLabel": "Remember Me",
+          "emailLabel": "Email",
+          "passwordLabel": "Password",
+          "signinLabel": "Login",
+          "signinRedirect": "patientsDetailView"
+        }
+      ],
+      "title": "Login",
+      "addToNavigation": true,
+      "icon": "contacts"
     }
   ],
   "transition": "none",
-  "dataProviders": [],
+  "dataProviders": [
+    {
+      "type": "nativescript-angular:dataProvider",
+      "name": "backendServices",
+      "source": "everlive",
+      "everliveKey": "3td2js7m7yqcfg32",
+      "offlineStorage": true,
+      "title": "Backend Services"
+    }
+  ],
   "name": "nativeScriptApp",
-  "navigation": "drawer",
-  "view": "homeView",
+  "navigation": "tabstrip",
+  "view": "login",
+  "showMoreTab": true,
   "skin": "core.light"
 }
