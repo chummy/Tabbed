@@ -27,6 +27,7 @@ import * as common from "./";
   ],
   providers: [
     /// additional services
+common.jsonProviderService,
 common.backendServicesService,
     common.NavigationService,
     common.NotificationService

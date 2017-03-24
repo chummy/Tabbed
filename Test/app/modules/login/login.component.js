@@ -96,16 +96,15 @@ var LoginComponent = (function () {
             _this._notificationService.error("We were unable to signed out.");
         });
     };
+    LoginComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "ns-login",
+            templateUrl: "login.component.html"
+        }), 
+        __metadata('design:paramtypes', [shared.NotificationService, shared.NavigationService, common.LoginService])
+    ], LoginComponent);
     return LoginComponent;
 }());
-LoginComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "ns-login",
-        templateUrl: "login.component.html"
-    }),
-    __metadata("design:paramtypes", [typeof (_a = (typeof shared !== "undefined" && shared).NotificationService) === "function" && _a || Object, typeof (_b = (typeof shared !== "undefined" && shared).NavigationService) === "function" && _b || Object, typeof (_c = (typeof common !== "undefined" && common).LoginService) === "function" && _c || Object])
-], LoginComponent);
 exports.LoginComponent = LoginComponent;
-var _a, _b, _c;
 //# sourceMappingURL=login.component.js.map

@@ -1,0 +1,29 @@
+<GridLayout rows="*, auto">
+    <ScrollView>
+
+        <StackLayout class="form">
+            <GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Username"></Label>
+    <TextField #usernameField class="input" col="1" [(ngModel)]="item.data.Username" hint="Type here ..."></TextField>
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Email address"></Label>
+    <TextField #emailField class="input" col="1" [(ngModel)]="item.data.Email" hint="Type here ..."></TextField>
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Password"></Label>
+    <TextField #passwordField class="input" col="1" [(ngModel)]="item.data.Password" secure="true" hint="Type here ..."></TextField>
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Identity"></Label>
+    <TextField #identityField class="input" col="1" [(ngModel)]="item.data.Identity" hint="Type here ..."></TextField>
+</GridLayout><!--- editableListForm41 additional fields -->
+        </StackLayout>
+        <!--- master detail form -->
+
+    </ScrollView>
+
+    <GridLayout row="1">
+        <Button class="btn btn-primary" text="Add" (tap)="onAdd()"></Button>
+    </GridLayout>
+
+    <ActivityIndicator class="activity-indicator" rowSpan="2" [busy]="!item" [visibility]="item ? 'collapse' : 'visible'">
+    </ActivityIndicator>
+</GridLayout>

@@ -258,6 +258,435 @@
       "title": "Login",
       "addToNavigation": true,
       "icon": "contacts"
+    },
+    {
+      "type": "nativescript-angular:view",
+      "name": "observation",
+      "components": [
+        {
+          "type": "nativescript-angular:form",
+          "components": [
+            {
+              "type": "nativescript-angular:editableListForm",
+              "components": [
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "commentField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Comment",
+                  "inputType": "text",
+                  "titlePosition": "left",
+                  "inputTextType": "text",
+                  "placeholder": "Type here ...",
+                  "dataBinding": "Comment"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "userDropDown",
+                  "dataBindingRelationChildren": "[{\"expand\":\"Username\",\"property\":\"UserId\",\"type\":\"Users\",\"isArray\":false}]",
+                  "title": "User",
+                  "inputType": "dropdownlist",
+                  "titlePosition": "left",
+                  "dataBindingRelationParent": "UserId"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "hyperlink",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Patients",
+                  "inputType": "link",
+                  "linkType": "view",
+                  "linkToView": "patientsDetailView",
+                  "linkText": "Patients"
+                }
+              ],
+              "name": "editableListForm38",
+              "formType": "add"
+            }
+          ],
+          "name": "observationModel",
+          "enableDataBinding": true,
+          "dataProvider": "backendServices",
+          "collection": "Comments",
+          "submitButton": "OK",
+          "cancelButton": "Cancel"
+        }
+      ],
+      "title": "Observation",
+      "addToNavigation": true,
+      "icon": "camera"
+    },
+    {
+      "type": "nativescript-angular:view",
+      "name": "users",
+      "components": [
+        {
+          "type": "nativescript-angular:editableList",
+          "serverSideSorting": false,
+          "serverSidePaging": false,
+          "listExtraFields": [],
+          "detailExtraFields": [],
+          "addScreenExtraFields": [],
+          "editScreenExtraFields": [],
+          "components": [
+            {
+              "type": "nativescript-angular:editableListForm",
+              "components": [
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "usernameField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Username",
+                  "inputType": "text",
+                  "titlePosition": "left",
+                  "inputTextType": "text",
+                  "placeholder": "Type here ...",
+                  "dataBinding": "Username"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "emailField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Email address",
+                  "inputType": "text",
+                  "titlePosition": "left",
+                  "inputTextType": "text",
+                  "placeholder": "Type here ...",
+                  "dataBinding": "Email"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "passwordField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Password",
+                  "inputType": "text",
+                  "titlePosition": "left",
+                  "inputTextType": "password",
+                  "placeholder": "Type here ...",
+                  "dataBinding": "Password"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "identityField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Identity",
+                  "inputType": "text",
+                  "titlePosition": "left",
+                  "inputTextType": "text",
+                  "placeholder": "Type here ...",
+                  "dataBinding": "Identity"
+                }
+              ],
+              "name": "editableListForm41",
+              "formType": "add"
+            },
+            {
+              "type": "nativescript-angular:editableListForm",
+              "components": [
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "usernameField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Username",
+                  "inputType": "text",
+                  "titlePosition": "left",
+                  "inputTextType": "text",
+                  "placeholder": "Type here ...",
+                  "dataBinding": "Username"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "emailField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Email",
+                  "inputType": "text",
+                  "titlePosition": "left",
+                  "inputTextType": "text",
+                  "placeholder": "Type here ...",
+                  "dataBinding": "Email"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "passwordField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Password",
+                  "inputType": "text",
+                  "titlePosition": "left",
+                  "inputTextType": "password",
+                  "placeholder": "Type here ...",
+                  "dataBinding": "Password"
+                }
+              ],
+              "name": "editableListForm45",
+              "formType": "edit"
+            }
+          ],
+          "name": "usersModel",
+          "dataProvider": "backendServices",
+          "collection": "Users",
+          "headerField": "DisplayName",
+          "subHeaderField": "Identity",
+          "isMapView": false,
+          "addItemForm": true,
+          "addScreenHeaderValue": "Add",
+          "editItemForm": true,
+          "editScreenHeaderSource": "dataBound",
+          "editScreenHeaderField": "DisplayName",
+          "deleteItemButton": true,
+          "deleteItemConfirmation": true,
+          "pullToRefresh": false,
+          "endlessScroll": false,
+          "detailHeaderFieldSource": "dataBound",
+          "detailHeaderField": "DisplayName",
+          "detailSubHeaderField": "DisplayName"
+        }
+      ],
+      "title": "Users",
+      "addToNavigation": true,
+      "icon": "contacts"
+    },
+    {
+      "type": "nativescript-angular:view",
+      "name": "patients",
+      "components": [
+        {
+          "type": "nativescript-angular:editableList",
+          "serverSideSorting": false,
+          "serverSidePaging": false,
+          "listExtraFields": [],
+          "detailExtraFields": [],
+          "addScreenExtraFields": [],
+          "editScreenExtraFields": [],
+          "components": [
+            {
+              "type": "nativescript-angular:editableListForm",
+              "components": [
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "trackingNoField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Tracking No",
+                  "inputType": "textBlock",
+                  "titlePosition": "left",
+                  "dataBindingOptional": "TrackingNoField"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "ageField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Age",
+                  "inputType": "textBlock",
+                  "titlePosition": "left",
+                  "dataBindingOptional": "ageField"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "bedField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Bed",
+                  "inputType": "textBlock",
+                  "titlePosition": "left",
+                  "dataBindingOptional": "bedField"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "clnCntField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "CLN Count",
+                  "inputType": "textBlock",
+                  "titlePosition": "left",
+                  "dataBindingOptional": "clnCntField"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "clnNewField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "CLN New",
+                  "inputType": "textBlock",
+                  "titlePosition": "left",
+                  "dataBindingOptional": "clnNewField"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "doctorIdfield",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Doctor",
+                  "inputType": "textBlock",
+                  "titlePosition": "left",
+                  "dataBindingOptional": "doctorIDField"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "evtCntField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Event Count",
+                  "inputType": "textBlock",
+                  "titlePosition": "left",
+                  "dataBindingOptional": "evtCntField"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "evtNewField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Event New",
+                  "inputType": "textBlock",
+                  "titlePosition": "left",
+                  "dataBindingOptional": "evtNewField"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "genderField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Gender",
+                  "inputType": "textBlock",
+                  "titlePosition": "left",
+                  "dataBindingOptional": "genderField"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "hospitalField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Hospital",
+                  "inputType": "textBlock",
+                  "titlePosition": "left",
+                  "dataBindingOptional": "hospitalField"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "labCntField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Lab Count",
+                  "inputType": "textBlock",
+                  "titlePosition": "left",
+                  "dataBindingOptional": "labCntField"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "labNewField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Lab New",
+                  "inputType": "textBlock",
+                  "titlePosition": "left",
+                  "dataBindingOptional": "labNewField"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "nameField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Name",
+                  "inputType": "textBlock",
+                  "titlePosition": "left",
+                  "dataBindingOptional": "nameField"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "obsCntField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Obs Count",
+                  "inputType": "textBlock",
+                  "titlePosition": "left",
+                  "dataBindingOptional": "obsCntField"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "obsNewField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Obs New",
+                  "inputType": "textBlock",
+                  "titlePosition": "left",
+                  "dataBindingOptional": "obsNewField"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "patientNoField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Patient No",
+                  "inputType": "textBlock",
+                  "titlePosition": "left",
+                  "dataBindingOptional": "patientNoField"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "surnameField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Surname",
+                  "inputType": "textBlock",
+                  "titlePosition": "left",
+                  "dataBindingOptional": "surnameField"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "wardField",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Ward",
+                  "inputType": "textBlock",
+                  "titlePosition": "left",
+                  "dataBindingOptional": "wardField"
+                }
+              ],
+              "name": "editableListForm47",
+              "formType": "detail"
+            },
+            {
+              "type": "nativescript-angular:editableListForm",
+              "components": [
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "mpifield",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "MPI",
+                  "inputType": "text",
+                  "titlePosition": "left",
+                  "inputTextType": "text",
+                  "placeholder": "Type here ...",
+                  "dataBinding": "PatMPIDField"
+                }
+              ],
+              "name": "editableListForm49",
+              "formType": "add"
+            },
+            {
+              "type": "nativescript-angular:editableListForm",
+              "components": [
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "mpifield",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "MPI",
+                  "inputType": "text",
+                  "titlePosition": "left",
+                  "inputTextType": "text",
+                  "placeholder": "Type here ...",
+                  "dataBinding": "PatMPIDField"
+                }
+              ],
+              "name": "editableListForm52",
+              "formType": "edit"
+            }
+          ],
+          "name": "patientsModel",
+          "dataProvider": "jsonProvider",
+          "collection": "Patient",
+          "headerField": "MPI",
+          "subHeaderField": "Name",
+          "isMapView": false,
+          "addItemForm": true,
+          "addScreenHeaderValue": "Create",
+          "editItemForm": true,
+          "editScreenHeaderSource": "dataBound",
+          "editScreenHeaderField": "PatMPIDField",
+          "deleteItemButton": true,
+          "deleteItemConfirmation": true,
+          "pullToRefresh": false,
+          "endlessScroll": false,
+          "detailHeaderFieldSource": "dataBound",
+          "detailHeaderField": "PatMPIDField",
+          "detailSubHeaderField": "nameField"
+        }
+      ],
+      "title": "Patients",
+      "addToNavigation": true,
+      "icon": "contacts"
     }
   ],
   "transition": "none",
@@ -269,11 +698,18 @@
       "everliveKey": "3td2js7m7yqcfg32",
       "offlineStorage": true,
       "title": "Backend Services"
+    },
+    {
+      "type": "nativescript-angular:dataProvider",
+      "name": "jsonProvider",
+      "source": "json",
+      "url": "http://emsuat01/Services/new/api/PatientLog/ListDoctorPatients?docID=MP0460982&patType=A",
+      "title": "JSON Data Service"
     }
   ],
   "name": "nativeScriptApp",
   "navigation": "tabstrip",
-  "view": "login",
+  "view": "patientsDetailView",
   "showMoreTab": true,
   "skin": "core.light"
 }

@@ -12,45 +12,45 @@ var common = require("./shared");
 var UserDetailViewModule = (function () {
     function UserDetailViewModule() {
     }
+    UserDetailViewModule = __decorate([
+        core_1.NgModule({
+            imports: [
+                router_1.NativeScriptRouterModule,
+                forms_1.NativeScriptFormsModule,
+                // START_CUSTOM_CODE_userDetailViewModelModuleImportDeclaration
+                // END_CUSTOM_CODE_userDetailViewModelModuleImportDeclaration
+                /// module imports declaration
+                platform_1.NativeScriptModule,
+                shared_module_1.SharedModule
+            ],
+            declarations: [
+                common.UserDetailViewListComponent,
+                common.UserDetailViewDetailComponent,
+                common.UserDetailViewAddComponent,
+                common.UserDetailViewEditComponent,
+                // START_CUSTOM_CODE_userDetailViewModelComponentDeclarations
+                // END_CUSTOM_CODE_userDetailViewModelComponentDeclarations
+                /// module declarations
+                userDetailView_component_1.UserDetailViewComponent
+            ],
+            exports: [
+                common.UserDetailViewListComponent,
+                common.UserDetailViewDetailComponent,
+                common.UserDetailViewAddComponent,
+                common.UserDetailViewEditComponent,
+                /// module exports
+                userDetailView_component_1.UserDetailViewComponent
+            ],
+            providers: [
+                // START_CUSTOM_CODE_userDetailViewModelModuleProviders
+                // END_CUSTOM_CODE_userDetailViewModelModuleProviders
+                /// module providers
+                common.UserDetailViewService
+            ]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], UserDetailViewModule);
     return UserDetailViewModule;
 }());
-UserDetailViewModule = __decorate([
-    core_1.NgModule({
-        imports: [
-            router_1.NativeScriptRouterModule,
-            forms_1.NativeScriptFormsModule,
-            // START_CUSTOM_CODE_userDetailViewModelModuleImportDeclaration
-            // END_CUSTOM_CODE_userDetailViewModelModuleImportDeclaration
-            /// module imports declaration
-            platform_1.NativeScriptModule,
-            shared_module_1.SharedModule
-        ],
-        declarations: [
-            common.UserDetailViewListComponent,
-            common.UserDetailViewDetailComponent,
-            common.UserDetailViewAddComponent,
-            common.UserDetailViewEditComponent,
-            // START_CUSTOM_CODE_userDetailViewModelComponentDeclarations
-            // END_CUSTOM_CODE_userDetailViewModelComponentDeclarations
-            /// module declarations
-            userDetailView_component_1.UserDetailViewComponent
-        ],
-        exports: [
-            common.UserDetailViewListComponent,
-            common.UserDetailViewDetailComponent,
-            common.UserDetailViewAddComponent,
-            common.UserDetailViewEditComponent,
-            /// module exports
-            userDetailView_component_1.UserDetailViewComponent
-        ],
-        providers: [
-            // START_CUSTOM_CODE_userDetailViewModelModuleProviders
-            // END_CUSTOM_CODE_userDetailViewModelModuleProviders
-            /// module providers
-            common.UserDetailViewService
-        ]
-    }),
-    __metadata("design:paramtypes", [])
-], UserDetailViewModule);
 exports.UserDetailViewModule = UserDetailViewModule;
 //# sourceMappingURL=userDetailView.module.js.map

@@ -40,6 +40,9 @@ export class NavigationService {
 { path: "userDetailView", title: "User Detail", icon: "\uf2be" },
 { path: "aboutView", title: "About", icon: "\uf05a" },
 { path: "login", title: "Login", icon: "\uf2be" },
+{ path: "observation", title: "Observation", icon: "\uf030" },
+{ path: "users", title: "Users", icon: "\uf2be" },
+{ path: "patients", title: "Patients", icon: "\uf2be" },
 /// navigation routes
         ];
 

@@ -54,12 +54,11 @@ var FormViewService = (function () {
         });
         return Observable_1.Observable.fromPromise(promise);
     };
+    FormViewService = __decorate([
+        core_1.Injectable(), 
+        __metadata('design:paramtypes', [shared.backendServicesService])
+    ], FormViewService);
     return FormViewService;
 }());
-FormViewService = __decorate([
-    core_1.Injectable(),
-    __metadata("design:paramtypes", [typeof (_a = (typeof shared !== "undefined" && shared).backendServicesService) === "function" && _a || Object])
-], FormViewService);
 exports.FormViewService = FormViewService;
-var _a;
 //# sourceMappingURL=formView.service.js.map

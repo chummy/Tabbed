@@ -26,30 +26,29 @@ var LoginSignUpComponent = (function () {
     LoginSignUpComponent.prototype.onNavigate = function () {
         this.navigate.emit();
     };
+    __decorate([
+        core_1.Input(), 
+        __metadata('design:type', Object), 
+        __metadata('design:paramtypes', [Object])
+    ], LoginSignUpComponent.prototype, "user", null);
+    __decorate([
+        core_1.Output(), 
+        __metadata('design:type', Object)
+    ], LoginSignUpComponent.prototype, "signup", void 0);
+    __decorate([
+        core_1.Output(), 
+        __metadata('design:type', Object)
+    ], LoginSignUpComponent.prototype, "navigate", void 0);
+    LoginSignUpComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "ns-login-sign-up",
+            templateUrl: "login-sign-up.component.html",
+            changeDetection: core_1.ChangeDetectionStrategy.OnPush
+        }), 
+        __metadata('design:paramtypes', [shared.NotificationService])
+    ], LoginSignUpComponent);
     return LoginSignUpComponent;
 }());
-__decorate([
-    core_1.Input(),
-    __metadata("design:type", typeof (_a = (typeof shared !== "undefined" && shared).User) === "function" && _a || Object),
-    __metadata("design:paramtypes", [typeof (_b = (typeof shared !== "undefined" && shared).User) === "function" && _b || Object])
-], LoginSignUpComponent.prototype, "user", null);
-__decorate([
-    core_1.Output(),
-    __metadata("design:type", Object)
-], LoginSignUpComponent.prototype, "signup", void 0);
-__decorate([
-    core_1.Output(),
-    __metadata("design:type", Object)
-], LoginSignUpComponent.prototype, "navigate", void 0);
-LoginSignUpComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "ns-login-sign-up",
-        templateUrl: "login-sign-up.component.html",
-        changeDetection: core_1.ChangeDetectionStrategy.OnPush
-    }),
-    __metadata("design:paramtypes", [typeof (_c = (typeof shared !== "undefined" && shared).NotificationService) === "function" && _c || Object])
-], LoginSignUpComponent);
 exports.LoginSignUpComponent = LoginSignUpComponent;
-var _a, _b, _c;
 //# sourceMappingURL=login-sign-up.component.js.map

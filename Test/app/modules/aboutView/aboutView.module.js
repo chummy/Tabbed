@@ -8,29 +8,29 @@ var common = require("./shared");
 var AboutViewModule = (function () {
     function AboutViewModule() {
     }
+    AboutViewModule = __decorate([
+        core_1.NgModule({
+            imports: [
+                /// module imports declaration
+                platform_1.NativeScriptModule,
+                shared_module_1.SharedModule
+            ],
+            declarations: [
+                /// module declarations
+                aboutView_component_1.AboutViewComponent
+            ],
+            exports: [
+                /// module exports
+                aboutView_component_1.AboutViewComponent
+            ],
+            providers: [
+                /// module providers
+                common.AboutViewService
+            ]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], AboutViewModule);
     return AboutViewModule;
 }());
-AboutViewModule = __decorate([
-    core_1.NgModule({
-        imports: [
-            /// module imports declaration
-            platform_1.NativeScriptModule,
-            shared_module_1.SharedModule
-        ],
-        declarations: [
-            /// module declarations
-            aboutView_component_1.AboutViewComponent
-        ],
-        exports: [
-            /// module exports
-            aboutView_component_1.AboutViewComponent
-        ],
-        providers: [
-            /// module providers
-            common.AboutViewService
-        ]
-    }),
-    __metadata("design:paramtypes", [])
-], AboutViewModule);
 exports.AboutViewModule = AboutViewModule;
 //# sourceMappingURL=aboutView.module.js.map

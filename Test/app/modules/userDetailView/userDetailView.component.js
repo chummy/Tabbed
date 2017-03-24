@@ -172,16 +172,15 @@ var UserDetailViewComponent = (function () {
         }
         this._mode = mode;
     };
+    UserDetailViewComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "ns-userDetailView",
+            templateUrl: "userDetailView.component.html"
+        }), 
+        __metadata('design:paramtypes', [common.UserDetailViewService])
+    ], UserDetailViewComponent);
     return UserDetailViewComponent;
 }());
-UserDetailViewComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "ns-userDetailView",
-        templateUrl: "userDetailView.component.html"
-    }),
-    __metadata("design:paramtypes", [typeof (_a = (typeof common !== "undefined" && common).UserDetailViewService) === "function" && _a || Object])
-], UserDetailViewComponent);
 exports.UserDetailViewComponent = UserDetailViewComponent;
-var _a;
 //# sourceMappingURL=userDetailView.component.js.map

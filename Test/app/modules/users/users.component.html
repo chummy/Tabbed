@@ -1,0 +1,37 @@
+<ns-action-bar [title]="title" [showBack]="mode != modes.LIST" (back)="onNavigateBack($event)" <!--- component view navigation directive --->
+
+    ></ns-action-bar>
+
+
+<GridLayout>
+
+    <GridLayout *ngIf="mode == modes.LIST">
+        <ns-users-list [items]="items$ | async" [service]="service" (select)="onSelect($event)" (navigate)="onNavigate(modes.ADD)">
+        </ns-users-list>
+    </GridLayout>
+
+
+    <GridLayout *ngIf="mode == modes.DETAIL">
+        <ns-users-detail [current]="currentItem$ | async" [service]="service" (navigate)="onNavigate(modes.EDIT)">
+        </ns-users-detail>
+    </GridLayout>
+
+
+    <GridLayout *ngIf="mode == modes.ADD">
+        <ns-users-add [current]="currentItem$ | async" [service]="service" (add)="onAdd($event)">
+        </ns-users-add>
+    </GridLayout>
+
+
+    <GridLayout *ngIf="mode == modes.EDIT">
+        <ns-users-edit [current]="currentItem$ | async" [service]="service" (update)="onUpdate($event)" (delete)="onDelete($event)">
+        </ns-users-edit>
+    </GridLayout>
+
+</GridLayout>
+<!-- additional view content -->
+
+<!-- START_CUSTOM_CODE_users -->
+<!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+<!-- END_CUSTOM_CODE_users -->

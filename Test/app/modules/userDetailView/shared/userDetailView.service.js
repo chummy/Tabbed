@@ -74,12 +74,11 @@ var UserDetailViewService = (function () {
         });
         return Observable_1.Observable.fromPromise(promise);
     };
+    UserDetailViewService = __decorate([
+        core_1.Injectable(), 
+        __metadata('design:paramtypes', [shared.backendServicesService])
+    ], UserDetailViewService);
     return UserDetailViewService;
 }());
-UserDetailViewService = __decorate([
-    core_1.Injectable(),
-    __metadata("design:paramtypes", [typeof (_a = (typeof shared !== "undefined" && shared).backendServicesService) === "function" && _a || Object])
-], UserDetailViewService);
 exports.UserDetailViewService = UserDetailViewService;
-var _a;
 //# sourceMappingURL=userDetailView.service.js.map

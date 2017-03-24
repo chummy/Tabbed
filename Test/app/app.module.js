@@ -13,24 +13,24 @@ var tabstrip_module_1 = require("./navigation/tabstrip/tabstrip.module");
 var AppModule = (function () {
     function AppModule() {
     }
+    AppModule = __decorate([
+        core_1.NgModule({
+            imports: [
+                platform_1.NativeScriptModule,
+                router_1.NativeScriptRouterModule,
+                router_1.NativeScriptRouterModule.forRoot(app_routes_1.appRoutes),
+                tabstrip_module_1.TabstripMenuModule
+            ],
+            declarations: [
+                app_component_1.AppComponent
+            ],
+            bootstrap: [
+                app_component_1.AppComponent
+            ]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], AppModule);
     return AppModule;
 }());
-AppModule = __decorate([
-    core_1.NgModule({
-        imports: [
-            platform_1.NativeScriptModule,
-            router_1.NativeScriptRouterModule,
-            router_1.NativeScriptRouterModule.forRoot(app_routes_1.appRoutes),
-            tabstrip_module_1.TabstripMenuModule
-        ],
-        declarations: [
-            app_component_1.AppComponent
-        ],
-        bootstrap: [
-            app_component_1.AppComponent
-        ]
-    }),
-    __metadata("design:paramtypes", [])
-], AppModule);
 exports.AppModule = AppModule;
 //# sourceMappingURL=app.module.js.map
