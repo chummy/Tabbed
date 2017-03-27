@@ -417,148 +417,148 @@
             "block": "// START_CUSTOM_CODE_patientsModelDetailComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelDetailComponentAdditionalMethods"
         },
         {
-            "tag": "patientsModelComponentImports",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentImports\n\n// END_CUSTOM_CODE_patientsModelComponentImports"
+            "tag": "patientsDetailViewModelComponentImports",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentImports\n\n// END_CUSTOM_CODE_patientsDetailViewModelComponentImports"
         },
         {
-            "tag": "patientsModelComponentProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentProperties\n\n    // END_CUSTOM_CODE_patientsModelComponentProperties"
+            "tag": "patientsDetailViewModelComponentProperties",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentProperties\n\n    // END_CUSTOM_CODE_patientsDetailViewModelComponentProperties"
         },
         {
-            "tag": "patientsModelComponentConstructorDependencies",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentConstructorDependencies\n\n        // END_CUSTOM_CODE_patientsModelComponentConstructorDependencies"
+            "tag": "patientsDetailViewModelComponentConstructorDependencies",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentConstructorDependencies\n\n        // END_CUSTOM_CODE_patientsDetailViewModelComponentConstructorDependencies"
         },
         {
-            "tag": "patientsModelComponentConstructorMethod",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentConstructorMethod\n\n        // END_CUSTOM_CODE_patientsModelComponentConstructorMethod"
+            "tag": "patientsDetailViewModelComponentConstructorMethod",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentConstructorMethod\n\n        // END_CUSTOM_CODE_patientsDetailViewModelComponentConstructorMethod"
         },
         {
-            "tag": "patientsModelComponentOnInit",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentOnInit\n\n        // END_CUSTOM_CODE_patientsModelComponentOnInit"
+            "tag": "patientsDetailViewModelComponentOnInit",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentOnInit\n\n        // END_CUSTOM_CODE_patientsDetailViewModelComponentOnInit"
         },
         {
-            "tag": "patientsModelComponentCustomLoad",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentCustomLoad\n\n                        // END_CUSTOM_CODE_patientsModelComponentCustomLoad"
+            "tag": "patientsDetailViewModelComponentCustomLoad",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentCustomLoad\n\n                    // END_CUSTOM_CODE_patientsDetailViewModelComponentCustomLoad"
         },
         {
-            "tag": "patientsModelComponentAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelComponentAdditionalMethods"
+            "tag": "patientsDetailViewModelComponentAdditionalMethods",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsDetailViewModelComponentAdditionalMethods"
         },
         {
-            "tag": "patientsModelModuleImports",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleImports\n\n// END_CUSTOM_CODE_patientsModelModuleImports"
+            "tag": "patientsDetailViewModelModuleImports",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelModuleImports\n\n// END_CUSTOM_CODE_patientsDetailViewModelModuleImports"
         },
         {
-            "tag": "patientsModelModuleImportDeclaration",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleImportDeclaration\n\n        // END_CUSTOM_CODE_patientsModelModuleImportDeclaration"
+            "tag": "patientsDetailViewModelModuleImportDeclaration",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelModuleImportDeclaration\n\n        // END_CUSTOM_CODE_patientsDetailViewModelModuleImportDeclaration"
         },
         {
-            "tag": "patientsModelComponentDeclarations",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentDeclarations\n\n        // END_CUSTOM_CODE_patientsModelComponentDeclarations"
+            "tag": "patientsDetailViewModelComponentDeclarations",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentDeclarations\n\n        // END_CUSTOM_CODE_patientsDetailViewModelComponentDeclarations"
         },
         {
-            "tag": "patientsModelModuleProviders",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleProviders\n\n        // END_CUSTOM_CODE_patientsModelModuleProviders"
+            "tag": "patientsDetailViewModelModuleProviders",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelModuleProviders\n\n        // END_CUSTOM_CODE_patientsDetailViewModelModuleProviders"
         },
         {
-            "tag": "patientsModelServiceImports",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceImports\n\n// END_CUSTOM_CODE_patientsModelServiceImports"
+            "tag": "patientsDetailViewModelServiceImports",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelServiceImports\n\n// END_CUSTOM_CODE_patientsDetailViewModelServiceImports"
         },
         {
-            "tag": "patientsModelServiceAdditionalProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceAdditionalProperties\n\n    // END_CUSTOM_CODE_patientsModelServiceAdditionalProperties"
+            "tag": "patientsDetailViewModelServiceAdditionalProperties",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelServiceAdditionalProperties\n\n    // END_CUSTOM_CODE_patientsDetailViewModelServiceAdditionalProperties"
         },
         {
-            "tag": "patientsModelServiceConstructorDependencies",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceConstructorDependencies\n\n        // END_CUSTOM_CODE_patientsModelServiceConstructorDependencies"
+            "tag": "patientsDetailViewModelServiceConstructorDependencies",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelServiceConstructorDependencies\n\n        // END_CUSTOM_CODE_patientsDetailViewModelServiceConstructorDependencies"
         },
         {
-            "tag": "patientsModelServiceConstructorMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceConstructorMethods\n\n        // END_CUSTOM_CODE_patientsModelServiceConstructorMethods"
+            "tag": "patientsDetailViewModelServiceConstructorMethods",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelServiceConstructorMethods\n\n        // END_CUSTOM_CODE_patientsDetailViewModelServiceConstructorMethods"
         },
         {
-            "tag": "patientsModelServiceAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelServiceAdditionalMethods"
+            "tag": "patientsDetailViewModelServiceAdditionalMethods",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelServiceAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsDetailViewModelServiceAdditionalMethods"
         },
         {
-            "tag": "patientsModelDetailComponentProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelDetailComponentProperties\n\n    // END_CUSTOM_CODE_patientsModelDetailComponentProperties"
+            "tag": "patientsDetailViewModelDetailComponentProperties",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelDetailComponentProperties\n\n    // END_CUSTOM_CODE_patientsDetailViewModelDetailComponentProperties"
         },
         {
-            "tag": "patientsModelDetailComponentAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelDetailComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelDetailComponentAdditionalMethods"
+            "tag": "patientsDetailViewModelDetailComponentAdditionalMethods",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelDetailComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsDetailViewModelDetailComponentAdditionalMethods"
         },
         {
-            "tag": "patientsModelComponentImports",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentImports\n\n// END_CUSTOM_CODE_patientsModelComponentImports"
+            "tag": "patientsDetailViewModelComponentImports",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentImports\n\n// END_CUSTOM_CODE_patientsDetailViewModelComponentImports"
         },
         {
-            "tag": "patientsModelComponentProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentProperties\n\n    // END_CUSTOM_CODE_patientsModelComponentProperties"
+            "tag": "patientsDetailViewModelComponentProperties",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentProperties\n\n    // END_CUSTOM_CODE_patientsDetailViewModelComponentProperties"
         },
         {
-            "tag": "patientsModelComponentConstructorDependencies",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentConstructorDependencies\n\n        // END_CUSTOM_CODE_patientsModelComponentConstructorDependencies"
+            "tag": "patientsDetailViewModelComponentConstructorDependencies",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentConstructorDependencies\n\n        // END_CUSTOM_CODE_patientsDetailViewModelComponentConstructorDependencies"
         },
         {
-            "tag": "patientsModelComponentConstructorMethod",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentConstructorMethod\n\n        // END_CUSTOM_CODE_patientsModelComponentConstructorMethod"
+            "tag": "patientsDetailViewModelComponentConstructorMethod",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentConstructorMethod\n\n        // END_CUSTOM_CODE_patientsDetailViewModelComponentConstructorMethod"
         },
         {
-            "tag": "patientsModelComponentOnInit",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentOnInit\n\n        // END_CUSTOM_CODE_patientsModelComponentOnInit"
+            "tag": "patientsDetailViewModelComponentOnInit",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentOnInit\n\n        // END_CUSTOM_CODE_patientsDetailViewModelComponentOnInit"
         },
         {
-            "tag": "patientsModelComponentCustomLoad",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentCustomLoad\n\n                        // END_CUSTOM_CODE_patientsModelComponentCustomLoad"
+            "tag": "patientsDetailViewModelComponentCustomLoad",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentCustomLoad\n\n                    // END_CUSTOM_CODE_patientsDetailViewModelComponentCustomLoad"
         },
         {
-            "tag": "patientsModelComponentAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelComponentAdditionalMethods"
+            "tag": "patientsDetailViewModelComponentAdditionalMethods",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsDetailViewModelComponentAdditionalMethods"
         },
         {
-            "tag": "patientsModelModuleImports",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleImports\n\n// END_CUSTOM_CODE_patientsModelModuleImports"
+            "tag": "patientsDetailViewModelModuleImports",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelModuleImports\n\n// END_CUSTOM_CODE_patientsDetailViewModelModuleImports"
         },
         {
-            "tag": "patientsModelModuleImportDeclaration",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleImportDeclaration\n\n        // END_CUSTOM_CODE_patientsModelModuleImportDeclaration"
+            "tag": "patientsDetailViewModelModuleImportDeclaration",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelModuleImportDeclaration\n\n        // END_CUSTOM_CODE_patientsDetailViewModelModuleImportDeclaration"
         },
         {
-            "tag": "patientsModelComponentDeclarations",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentDeclarations\n\n        // END_CUSTOM_CODE_patientsModelComponentDeclarations"
+            "tag": "patientsDetailViewModelComponentDeclarations",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelComponentDeclarations\n\n        // END_CUSTOM_CODE_patientsDetailViewModelComponentDeclarations"
         },
         {
-            "tag": "patientsModelModuleProviders",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleProviders\n\n        // END_CUSTOM_CODE_patientsModelModuleProviders"
+            "tag": "patientsDetailViewModelModuleProviders",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelModuleProviders\n\n        // END_CUSTOM_CODE_patientsDetailViewModelModuleProviders"
         },
         {
-            "tag": "patientsModelServiceImports",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceImports\n\n// END_CUSTOM_CODE_patientsModelServiceImports"
+            "tag": "patientsDetailViewModelServiceImports",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelServiceImports\n\n// END_CUSTOM_CODE_patientsDetailViewModelServiceImports"
         },
         {
-            "tag": "patientsModelServiceAdditionalProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceAdditionalProperties\n\n    // END_CUSTOM_CODE_patientsModelServiceAdditionalProperties"
+            "tag": "patientsDetailViewModelServiceAdditionalProperties",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelServiceAdditionalProperties\n\n    // END_CUSTOM_CODE_patientsDetailViewModelServiceAdditionalProperties"
         },
         {
-            "tag": "patientsModelServiceConstructorDependencies",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceConstructorDependencies\n\n        // END_CUSTOM_CODE_patientsModelServiceConstructorDependencies"
+            "tag": "patientsDetailViewModelServiceConstructorDependencies",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelServiceConstructorDependencies\n\n        // END_CUSTOM_CODE_patientsDetailViewModelServiceConstructorDependencies"
         },
         {
-            "tag": "patientsModelServiceConstructorMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceConstructorMethods\n\n        // END_CUSTOM_CODE_patientsModelServiceConstructorMethods"
+            "tag": "patientsDetailViewModelServiceConstructorMethods",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelServiceConstructorMethods\n\n        // END_CUSTOM_CODE_patientsDetailViewModelServiceConstructorMethods"
         },
         {
-            "tag": "patientsModelServiceAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelServiceAdditionalMethods"
+            "tag": "patientsDetailViewModelServiceAdditionalMethods",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelServiceAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsDetailViewModelServiceAdditionalMethods"
         },
         {
-            "tag": "patientsModelDetailComponentProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelDetailComponentProperties\n\n    // END_CUSTOM_CODE_patientsModelDetailComponentProperties"
+            "tag": "patientsDetailViewModelDetailComponentProperties",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelDetailComponentProperties\n\n    // END_CUSTOM_CODE_patientsDetailViewModelDetailComponentProperties"
         },
         {
-            "tag": "patientsModelDetailComponentAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelDetailComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelDetailComponentAdditionalMethods"
+            "tag": "patientsDetailViewModelDetailComponentAdditionalMethods",
+            "block": "// START_CUSTOM_CODE_patientsDetailViewModelDetailComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsDetailViewModelDetailComponentAdditionalMethods"
         }
     ]
 }

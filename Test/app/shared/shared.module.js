@@ -30,6 +30,7 @@ SharedModule = __decorate([
         ],
         providers: [
             /// additional services
+            common.yahooProviderService,
             common.jsonProviderService,
             common.backendServicesService,
             common.NavigationService,

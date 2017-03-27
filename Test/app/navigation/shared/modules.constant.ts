@@ -10,8 +10,8 @@ import { PatientsDetailViewModule } from "../../modules/patientsDetailView/patie
 
 export const MODULES = [
 /// start modules declaration
-PatientsModule,
-PatientsModule,
+PatientsDetailViewModule,
+PatientsDetailViewModule,
 PatientsModule,
 UsersModule,
 ObservationModule,
