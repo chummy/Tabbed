@@ -31,11 +31,12 @@ var PatientsService = (function () {
             headers: headers
         });
     };
-    PatientsService = __decorate([
-        core_1.Injectable(), 
-        __metadata('design:paramtypes', [shared.jsonProviderService, http_1.Http])
-    ], PatientsService);
     return PatientsService;
 }());
+PatientsService = __decorate([
+    core_1.Injectable(),
+    __metadata("design:paramtypes", [typeof (_a = (typeof shared !== "undefined" && shared).jsonProviderService) === "function" && _a || Object, typeof (_b = typeof http_1.Http !== "undefined" && http_1.Http) === "function" && _b || Object])
+], PatientsService);
 exports.PatientsService = PatientsService;
+var _a, _b;
 //# sourceMappingURL=patients.service.js.map

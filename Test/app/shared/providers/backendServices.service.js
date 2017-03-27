@@ -1,5 +1,5 @@
 "use strict";
-var core_1 = require('@angular/core');
+var core_1 = require("@angular/core");
 var connectivity = require("connectivity");
 var Everlive = require('../../sdks/everlive.js');
 var backendServicesService = (function () {
@@ -50,12 +50,12 @@ var backendServicesService = (function () {
         enumerable: true,
         configurable: true
     });
-    backendServicesService = __decorate([
-        core_1.Injectable(), 
-        __metadata('design:paramtypes', [])
-    ], backendServicesService);
     return backendServicesService;
 }());
+backendServicesService = __decorate([
+    core_1.Injectable(),
+    __metadata("design:paramtypes", [])
+], backendServicesService);
 exports.backendServicesService = backendServicesService;
 // START_CUSTOM_CODE_backendServices
 // Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes

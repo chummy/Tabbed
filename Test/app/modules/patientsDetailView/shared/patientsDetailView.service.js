@@ -44,11 +44,12 @@ var PatientsDetailViewService = (function () {
         });
         return Observable_1.Observable.fromPromise(promise);
     };
-    PatientsDetailViewService = __decorate([
-        core_1.Injectable(), 
-        __metadata('design:paramtypes', [shared.backendServicesService])
-    ], PatientsDetailViewService);
     return PatientsDetailViewService;
 }());
+PatientsDetailViewService = __decorate([
+    core_1.Injectable(),
+    __metadata("design:paramtypes", [typeof (_a = (typeof shared !== "undefined" && shared).backendServicesService) === "function" && _a || Object])
+], PatientsDetailViewService);
 exports.PatientsDetailViewService = PatientsDetailViewService;
+var _a;
 //# sourceMappingURL=patientsDetailView.service.js.map

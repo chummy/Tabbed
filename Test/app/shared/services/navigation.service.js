@@ -50,11 +50,12 @@ var NavigationService = (function () {
     NavigationService.prototype.toggleDrawer = function () {
         this._openDrawer$.next(!this._openDrawer$.getValue());
     };
-    NavigationService = __decorate([
-        core_1.Injectable(), 
-        __metadata('design:paramtypes', [router_1.Router])
-    ], NavigationService);
     return NavigationService;
 }());
+NavigationService = __decorate([
+    core_1.Injectable(),
+    __metadata("design:paramtypes", [typeof (_a = typeof router_1.Router !== "undefined" && router_1.Router) === "function" && _a || Object])
+], NavigationService);
 exports.NavigationService = NavigationService;
+var _a;
 //# sourceMappingURL=navigation.service.js.map

@@ -54,11 +54,12 @@ var ObservationService = (function () {
         });
         return Observable_1.Observable.fromPromise(promise);
     };
-    ObservationService = __decorate([
-        core_1.Injectable(), 
-        __metadata('design:paramtypes', [shared.backendServicesService])
-    ], ObservationService);
     return ObservationService;
 }());
+ObservationService = __decorate([
+    core_1.Injectable(),
+    __metadata("design:paramtypes", [typeof (_a = (typeof shared !== "undefined" && shared).backendServicesService) === "function" && _a || Object])
+], ObservationService);
 exports.ObservationService = ObservationService;
+var _a;
 //# sourceMappingURL=observation.service.js.map

@@ -19,15 +19,16 @@ var AboutViewComponent = (function () {
         enumerable: true,
         configurable: true
     });
-    AboutViewComponent = __decorate([
-        core_1.Component({
-            moduleId: module.id,
-            selector: "ns-aboutView",
-            templateUrl: "aboutView.component.html"
-        }), 
-        __metadata('design:paramtypes', [common.AboutViewService])
-    ], AboutViewComponent);
     return AboutViewComponent;
 }());
+AboutViewComponent = __decorate([
+    core_1.Component({
+        moduleId: module.id,
+        selector: "ns-aboutView",
+        templateUrl: "aboutView.component.html"
+    }),
+    __metadata("design:paramtypes", [typeof (_a = (typeof common !== "undefined" && common).AboutViewService) === "function" && _a || Object])
+], AboutViewComponent);
 exports.AboutViewComponent = AboutViewComponent;
+var _a;
 //# sourceMappingURL=aboutView.component.js.map

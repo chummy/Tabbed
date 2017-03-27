@@ -108,15 +108,16 @@ var PatientsDetailViewComponent = (function () {
     PatientsDetailViewComponent.prototype.onNavigate = function (mode) {
         this._mode = mode;
     };
-    PatientsDetailViewComponent = __decorate([
-        core_1.Component({
-            moduleId: module.id,
-            selector: "ns-patientsDetailView",
-            templateUrl: "patientsDetailView.component.html"
-        }), 
-        __metadata('design:paramtypes', [common.PatientsDetailViewService])
-    ], PatientsDetailViewComponent);
     return PatientsDetailViewComponent;
 }());
+PatientsDetailViewComponent = __decorate([
+    core_1.Component({
+        moduleId: module.id,
+        selector: "ns-patientsDetailView",
+        templateUrl: "patientsDetailView.component.html"
+    }),
+    __metadata("design:paramtypes", [typeof (_a = (typeof common !== "undefined" && common).PatientsDetailViewService) === "function" && _a || Object])
+], PatientsDetailViewComponent);
 exports.PatientsDetailViewComponent = PatientsDetailViewComponent;
+var _a;
 //# sourceMappingURL=patientsDetailView.component.js.map

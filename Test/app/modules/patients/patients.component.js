@@ -37,8 +37,7 @@ var PatientsComponent = (function () {
                 result = "Create";
             }
             else if (this._mode === shared.Modes.EDIT) {
-                var current = this._currentItem$.getValue();
-                result = current.data.PatMPIDField + "\0";
+                result = "Edit";
             }
             else if (this._mode === shared.Modes.DETAIL) {
                 var current = this._currentItem$.getValue();
@@ -110,84 +109,22 @@ var PatientsComponent = (function () {
         this._currentItem$.next(args.item);
         this.onNavigate(shared.Modes.DETAIL);
     };
-    PatientsComponent.prototype.onAdd = function (args) {
-        var _this = this;
-        this._service.post(args.item.data)
-            .subscribe(function (data) {
-            var arr = _this._items$.getValue();
-            if (!data.Id) {
-                return;
-            }
-            args.item.id = data.Id;
-            arr.push(args.item);
-            _this._items$.next(arr.slice());
-            _this._currentItem$.next({
-                id: "",
-                data: {}
-            });
-            _this.onNavigate(shared.Modes.LIST);
-        }, function (error) {
-            console.log(JSON.stringify(error));
-        });
-    };
-    PatientsComponent.prototype.onUpdate = function (args) {
-        var _this = this;
-        this._service.put(args.item.data)
-            .subscribe(function (data) {
-            var arr = _this._items$.getValue();
-            arr.forEach(function (itm, idx) {
-                if (itm.id === args.item.id) {
-                    arr[idx] = args.item;
-                }
-            });
-            _this._items$.next(arr.slice());
-            _this._currentItem$.next(args.item);
-            _this.onNavigate(shared.Modes.DETAIL);
-        }, function (error) {
-            console.log(JSON.stringify(error));
-        });
-    };
-    PatientsComponent.prototype.onDelete = function (args) {
-        var _this = this;
-        this._service.delete(args.item.data)
-            .subscribe(function (data) {
-            var arr = _this._items$.getValue();
-            arr.forEach(function (itm, idx) {
-                if (itm.id === args.item.id) {
-                    arr.splice(idx, 1);
-                }
-            });
-            _this._items$.next(arr.slice());
-            _this._currentItem$.next({
-                id: "",
-                data: {}
-            });
-            _this.onNavigate(shared.Modes.LIST);
-        }, function (error) {
-            console.log(JSON.stringify(error));
-        });
-    };
     PatientsComponent.prototype.onNavigateBack = function () {
         this.onNavigate(this._mode === shared.Modes.EDIT ? shared.Modes.DETAIL : shared.Modes.LIST);
     };
     PatientsComponent.prototype.onNavigate = function (mode) {
-        if (mode === shared.Modes.ADD) {
-            this._currentItem$.next({
-                id: "",
-                data: {}
-            });
-        }
         this._mode = mode;
     };
-    PatientsComponent = __decorate([
-        core_1.Component({
-            moduleId: module.id,
-            selector: "ns-patients",
-            templateUrl: "patients.component.html"
-        }), 
-        __metadata('design:paramtypes', [shared.NotificationService, common.PatientsService])
-    ], PatientsComponent);
     return PatientsComponent;
 }());
+PatientsComponent = __decorate([
+    core_1.Component({
+        moduleId: module.id,
+        selector: "ns-patients",
+        templateUrl: "patients.component.html"
+    }),
+    __metadata("design:paramtypes", [typeof (_a = (typeof shared !== "undefined" && shared).NotificationService) === "function" && _a || Object, typeof (_b = (typeof common !== "undefined" && common).PatientsService) === "function" && _b || Object])
+], PatientsComponent);
 exports.PatientsComponent = PatientsComponent;
+var _a, _b;
 //# sourceMappingURL=patients.component.js.map

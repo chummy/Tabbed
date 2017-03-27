@@ -1,0 +1,56 @@
+<GridLayout rows="*, auto">
+    <ScrollView>
+        <StackLayout class="list-group">
+            <GridLayout class="list-group-item" rows="auto, auto">
+                <GridLayout columns="auto, 10, *" rows="auto, auto">
+                    <!-- TODO: insert properties of editableList here -->
+
+                    <!--<Label class="list-group-item-heading fa"></Label>-->
+
+
+                </GridLayout>
+
+                <GridLayout row="1">
+
+                    <StackLayout class="form">
+                        <GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Activity"></Label>
+
+    <Label #activityField class="h1" col="1" [text]="item.data.ActivityField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Date"></Label>
+
+    <Label #dateField class="paragraph h3" col="1" [text]="item.data.DateField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="MPIDField"></Label>
+
+    <Label #mpid class="paragraph h3" col="1" [text]="item.data.MPIDField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Time"></Label>
+
+    <Label #timeField class="paragraph h3" col="1" [text]="item.data.TimeField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="TrackingNo"></Label>
+
+    <Label #trackingNoField class="paragraph h3" col="1" [text]="item.data.TrackingNoField" textWrap="true"></Label>
+
+</GridLayout><!--- editableListForm58 additional fields -->
+                    </StackLayout>
+                    <!--- master detail form -->
+
+                </GridLayout>
+            </GridLayout>
+        </StackLayout>
+        <!-- START_CUSTOM_CODE_activitiesModel -->
+
+        <!-- END_CUSTOM_CODE_activitiesModel -->
+    </ScrollView>
+
+
+    <ActivityIndicator class="activity-indicator" rowSpan="2" [busy]="!item" [visibility]="item ? 'collapse' : 'visible'">
+    </ActivityIndicator>
+</GridLayout>

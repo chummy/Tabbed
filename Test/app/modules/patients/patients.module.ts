@@ -60,10 +60,6 @@ NgModule({
 
         common.PatientsDetailComponent,
 
-        common.PatientsAddComponent,
-
-        common.PatientsEditComponent,
-
         // START_CUSTOM_CODE_patientsModelComponentDeclarations
 
         // END_CUSTOM_CODE_patientsModelComponentDeclarations
@@ -76,10 +72,6 @@ NgModule({
         common.PatientsListComponent,
 
         common.PatientsDetailComponent,
-
-        common.PatientsAddComponent,
-
-        common.PatientsEditComponent,
 
         /// module exports
 

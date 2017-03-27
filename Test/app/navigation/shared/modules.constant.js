@@ -1,5 +1,9 @@
 "use strict";
 /// modules imports
+var observations_module_1 = require("../../modules/observations/observations.module");
+var clinical_module_1 = require("../../modules/clinical/clinical.module");
+var activities_module_1 = require("../../modules/activities/activities.module");
+var visit_module_1 = require("../../modules/visit/visit.module");
 var patients_module_1 = require("../../modules/patients/patients.module");
 var users_module_1 = require("../../modules/users/users.module");
 var observation_module_1 = require("../../modules/observation/observation.module");
@@ -10,21 +14,14 @@ var formView_module_1 = require("../../modules/formView/formView.module");
 var patientsDetailView_module_1 = require("../../modules/patientsDetailView/patientsDetailView.module");
 exports.MODULES = [
     /// start modules declaration
-    patients_module_1.PatientsModule,
-    patients_module_1.PatientsModule,
-    patients_module_1.PatientsModule,
-    patients_module_1.PatientsModule,
-    patients_module_1.PatientsModule,
-    patients_module_1.PatientsModule,
-    patients_module_1.PatientsModule,
+    observations_module_1.ObservationsModule,
+    observations_module_1.ObservationsModule,
+    clinical_module_1.ClinicalModule,
+    activities_module_1.ActivitiesModule,
+    visit_module_1.VisitModule,
     patients_module_1.PatientsModule,
     patients_module_1.PatientsModule,
     users_module_1.UsersModule,
-    users_module_1.UsersModule,
-    users_module_1.UsersModule,
-    observation_module_1.ObservationModule,
-    observation_module_1.ObservationModule,
-    observation_module_1.ObservationModule,
     observation_module_1.ObservationModule,
     login_module_1.LoginModule,
     aboutView_module_1.AboutViewModule,

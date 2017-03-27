@@ -1,0 +1,235 @@
+<GridLayout rows="*, auto">
+    <ScrollView>
+        <StackLayout class="list-group">
+            <GridLayout class="list-group-item" rows="auto, auto">
+                <GridLayout columns="auto, 10, *" rows="auto, auto">
+                    <!-- TODO: insert properties of editableList here -->
+
+                    <!--<Label class="list-group-item-heading fa"></Label>-->
+
+                    <StackLayout col="2">
+                        <Label class="list-group-item-heading" [text]="item.data.mPIDField"></Label>
+                    </StackLayout>
+
+
+                </GridLayout>
+
+                <GridLayout row="1">
+
+                    <StackLayout class="form">
+                        <GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Hospital"></Label>
+
+    <Label #hospitalField class="paragraph h3" col="1" [text]="item.data.HospitalField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="ID"></Label>
+
+    <Label #idnoField class="paragraph h3" col="1" [text]="item.data.IDNoField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Account"></Label>
+
+    <Label #accNoField class="paragraph h3" col="1" [text]="item.data.accNoField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Admitted"></Label>
+
+    <Label #admittedField class="paragraph h3" col="1" [text]="item.data.admittedField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Age"></Label>
+
+    <Label #ageField1 class="paragraph h3" col="1" [text]="item.data.ageField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Bed"></Label>
+
+    <Label #bedField1 class="paragraph h3" col="1" [text]="item.data.bedField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="City"></Label>
+
+    <Label #cityField class="paragraph h3" col="1" [text]="item.data.cityField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="DOB"></Label>
+
+    <Label #dObfield class="paragraph h3" col="1" [text]="item.data.dOBField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Deceased"></Label>
+
+    <Label #deceasedField class="paragraph h3" col="1" [text]="item.data.deceasedField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Dependant"></Label>
+
+    <Label #dependantNoField class="paragraph h3" col="1" [text]="item.data.dependantNoField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Discharge Reason"></Label>
+
+    <Label #dischargeReasonField class="paragraph h3" col="1" [text]="item.data.dischargeReasonField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Discharge Date"></Label>
+
+    <Label #dischargedField class="paragraph h3" col="1" [text]="item.data.dischargedField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Email"></Label>
+
+    <Label #emailField1 class="paragraph h3" col="1" [text]="item.data.emailField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Name"></Label>
+
+    <Label #firstnameField class="paragraph h3" col="1" [text]="item.data.firstnameField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="garCity"></Label>
+
+    <Label #garCityField class="paragraph h3" col="1" [text]="item.data.garCityField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="garEmail"></Label>
+
+    <Label #garEmailField class="paragraph h3" col="1" [text]="item.data.garEmailField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="garHomeTel"></Label>
+
+    <Label #garHomeTelField class="paragraph h3" col="1" [text]="item.data.garHomeTelField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="garInit"></Label>
+
+    <Label #garInitField class="paragraph h3" col="1" [text]="item.data.garInitField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="garMobile"></Label>
+
+    <Label #garMobile class="paragraph h3" col="1" [text]="item.data.garMobileField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="garPCode"></Label>
+
+    <Label #garPcodeField class="paragraph h3" col="1" [text]="item.data.garPCodeField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="garRelationField"></Label>
+
+    <Label #garRelation class="paragraph h3" col="1" [text]="item.data.garRelationField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="garStreet"></Label>
+
+    <Label #garStreetField class="paragraph h3" col="1" [text]="item.data.garStreetField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="garSuburb"></Label>
+
+    <Label #garSuburbField class="paragraph h3" col="1" [text]="item.data.garSuburbField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="garSurname"></Label>
+
+    <Label #garSurnameField class="paragraph h3" col="1" [text]="item.data.garSurnameField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="garWorkTelField"></Label>
+
+    <Label #garWorkTelField class="paragraph h3" col="1" [text]="item.data.garWorkTelField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="gender"></Label>
+
+    <Label #genderField1 class="paragraph h3" col="1" [text]="item.data.genderField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="homeTel"></Label>
+
+    <Label #homeTelField class="paragraph h3" col="1" [text]="item.data.homeTelField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="locID"></Label>
+
+    <Label #locIdfield class="paragraph h3" col="1" [text]="item.data.locIDField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="mPIDField"></Label>
+
+    <Label #mPidfield class="paragraph h3" col="1" [text]="item.data.mPIDField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="medicalAid"></Label>
+
+    <Label #medicalAidField class="paragraph h3" col="1" [text]="item.data.medicalAidField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="medicalAidNo"></Label>
+
+    <Label #medicalAidNoField class="paragraph h3" col="1" [text]="item.data.medicalAidNoField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="medicalAidPlan"></Label>
+
+    <Label #medicalAidPlanField class="paragraph h3" col="1" [text]="item.data.medicalAidPlanField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="mobile"></Label>
+
+    <Label #mobileField class="paragraph h3" col="1" [text]="item.data.mobileField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="postalCode"></Label>
+
+    <Label #postalCodeField class="paragraph h3" col="1" [text]="item.data.postalCodeField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="province"></Label>
+
+    <Label #provinceField class="paragraph h3" col="1" [text]="item.data.provinceField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="street"></Label>
+
+    <Label #streetField class="paragraph h3" col="1" [text]="item.data.streetField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="suburb"></Label>
+
+    <Label #suburbField class="paragraph h3" col="1" [text]="item.data.suburbField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="surname"></Label>
+
+    <Label #surnameField1 class="paragraph h3" col="1" [text]="item.data.surnameField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="trackingNo"></Label>
+
+    <Label #trackingNoField1 class="paragraph h3" col="1" [text]="item.data.trackingNoField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="workTel"></Label>
+
+    <Label #workTelField class="paragraph h3" col="1" [text]="item.data.workTelField" textWrap="true"></Label>
+
+</GridLayout><!--- editableListForm52 additional fields -->
+                    </StackLayout>
+                    <!--- master detail form -->
+
+                </GridLayout>
+            </GridLayout>
+        </StackLayout>
+        <!-- START_CUSTOM_CODE_visitModel -->
+
+        <!-- END_CUSTOM_CODE_visitModel -->
+    </ScrollView>
+
+
+    <ActivityIndicator class="activity-indicator" rowSpan="2" [busy]="!item" [visibility]="item ? 'collapse' : 'visible'">
+    </ActivityIndicator>
+</GridLayout>

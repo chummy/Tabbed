@@ -45,9 +45,7 @@ implements OnInit
 
         } else if (this._mode === shared.Modes.EDIT) {
 
-            let current: shared.Item = this._currentItem$.getValue();
-
-            result = current.data.PatMPIDField + "\0";
+            result = "Edit";
 
         } else if (this._mode === shared.Modes.DETAIL) {
 
@@ -160,83 +158,6 @@ implements OnInit
         this.onNavigate(shared.Modes.DETAIL);
     }
 
-    onAdd(args) {
-
-        this._service.post(args.item.data)
-
-        .subscribe(
-            (data) => {
-                let arr: shared.Item[] = this._items$.getValue();
-
-                if (!data.Id) {
-                    return;
-                }
-                args.item.id = data.Id;
-
-                arr.push(args.item);
-
-                this._items$.next([...arr]);
-                this._currentItem$.next({
-                    id: "",
-                    data: {}
-                });
-
-                this.onNavigate(shared.Modes.LIST);
-
-            }, (error) => {
-                console.log(JSON.stringify(error));
-            }
-        );
-    }
-
-    onUpdate(args) {
-        this._service.put(args.item.data)
-            .subscribe(
-                (data) => {
-                    let arr: shared.Item[] = this._items$.getValue();
-
-                    arr.forEach((itm, idx) => {
-                        if (itm.id === args.item.id) {
-                            arr[idx] = args.item;
-                        }
-                    });
-
-                    this._items$.next([...arr]);
-                    this._currentItem$.next(args.item);
-
-                    this.onNavigate(shared.Modes.DETAIL);
-                }, (error) => {
-                    console.log(JSON.stringify(error));
-                }
-            );
-    }
-
-    onDelete(args) {
-        this._service.delete(args.item.data)
-            .subscribe(
-                (data) => {
-                    let arr: shared.Item[] = this._items$.getValue();
-
-                    arr.forEach((itm, idx) => {
-                        if (itm.id === args.item.id) {
-                            arr.splice(idx, 1);
-                        }
-                    });
-
-                    this._items$.next([...arr]);
-                    this._currentItem$.next({
-                        id: "",
-                        data: {}
-                    });
-
-                    this.onNavigate(shared.Modes.LIST);
-
-                }, (error) => {
-                    console.log(JSON.stringify(error));
-                }
-            );
-    }
-
     onNavigateBack() {
 
         this.onNavigate(this._mode === shared.Modes.EDIT ? shared.Modes.DETAIL : shared.Modes.LIST);
@@ -244,13 +165,6 @@ implements OnInit
     }
 
     onNavigate(mode: shared.Modes) {
-
-        if (mode === shared.Modes.ADD) {
-            this._currentItem$.next({
-                id: "",
-                data: {}
-            });
-        }
 
         this._mode = mode;
     }

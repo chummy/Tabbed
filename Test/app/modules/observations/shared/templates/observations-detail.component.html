@@ -1,0 +1,73 @@
+<GridLayout rows="*, auto">
+    <ScrollView>
+        <StackLayout class="list-group">
+            <GridLayout class="list-group-item" rows="auto, auto">
+                <GridLayout columns="auto, 10, *" rows="auto, auto">
+                    <!-- TODO: insert properties of editableList here -->
+
+                    <!--<Label class="list-group-item-heading fa"></Label>-->
+
+                    <StackLayout col="2">
+                        <Label class="list-group-item-heading" [text]="item.data.IDField"></Label>
+                    </StackLayout>
+
+
+                    <Label class="list-group-item-text m-l-10 m-t-10" row="1" colSpan="3" [text]="item.data.ValueField" textWrap="true">
+                    </Label>
+
+                </GridLayout>
+
+                <GridLayout row="1">
+
+                    <StackLayout class="form">
+                        <GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Date"></Label>
+
+    <Label #dateField class="paragraph h3" col="1" [text]="item.data.DateField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="ID"></Label>
+
+    <Label #idfield class="paragraph h3" col="1" [text]="item.data.IDField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="MPID"></Label>
+
+    <Label #mpidfield class="paragraph h3" col="1" [text]="item.data.MPIDField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Time"></Label>
+
+    <Label #timeField class="paragraph h3" col="1" [text]="item.data.TimeField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="TrackingNo"></Label>
+
+    <Label #trackingNoField class="paragraph h3" col="1" [text]="item.data.TrackingNoField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Type"></Label>
+
+    <Label #typeField class="paragraph h3" col="1" [text]="item.data.TypeField" textWrap="true"></Label>
+
+</GridLayout><GridLayout class="input-field" columns="*, *">
+    <Label class="h3 text-muted" text="Value"></Label>
+
+    <Label #valueField class="paragraph h3" col="1" [text]="item.data.ValueField" textWrap="true"></Label>
+
+</GridLayout><!--- editableListForm64 additional fields -->
+                    </StackLayout>
+                    <!--- master detail form -->
+
+                </GridLayout>
+            </GridLayout>
+        </StackLayout>
+        <!-- START_CUSTOM_CODE_observationsModel -->
+
+        <!-- END_CUSTOM_CODE_observationsModel -->
+    </ScrollView>
+
+
+    <ActivityIndicator class="activity-indicator" rowSpan="2" [busy]="!item" [visibility]="item ? 'collapse' : 'visible'">
+    </ActivityIndicator>
+</GridLayout>

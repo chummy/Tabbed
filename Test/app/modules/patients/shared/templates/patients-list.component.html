@@ -23,11 +23,6 @@
     </ListView>
 
 
-    <GridLayout row="1">
-        <Button class="btn btn-primary" text="Add" (tap)="onAdd()"></Button>
-    </GridLayout>
-
-
     <ActivityIndicator class="activity-indicator" rowSpan="2" [busy]="!items.length" [visibility]="items.length ? 'collapse' : 'visible'">
     </ActivityIndicator>
 </GridLayout>

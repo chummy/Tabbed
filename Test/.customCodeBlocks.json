@@ -273,206 +273,6 @@
             "block": "// START_CUSTOM_CODE_observationModelServiceAdditionalMethods\n\n    // END_CUSTOM_CODE_observationModelServiceAdditionalMethods"
         },
         {
-            "tag": "observationModelComponentImports",
-            "block": "// START_CUSTOM_CODE_observationModelComponentImports\n\n// END_CUSTOM_CODE_observationModelComponentImports"
-        },
-        {
-            "tag": "observationModelComponentProperties",
-            "block": "// START_CUSTOM_CODE_observationModelComponentProperties\n\n    // END_CUSTOM_CODE_observationModelComponentProperties"
-        },
-        {
-            "tag": "observationModelComponentConstructorDependencies",
-            "block": "// START_CUSTOM_CODE_observationModelComponentConstructorDependencies\n\n        // END_CUSTOM_CODE_observationModelComponentConstructorDependencies"
-        },
-        {
-            "tag": "observationModelComponentConstructorMethod",
-            "block": "// START_CUSTOM_CODE_observationModelComponentConstructorMethod\n\n        // END_CUSTOM_CODE_observationModelComponentConstructorMethod"
-        },
-        {
-            "tag": "observationModelComponentOnInit",
-            "block": "// START_CUSTOM_CODE_observationModelComponentOnInit\n\n        // END_CUSTOM_CODE_observationModelComponentOnInit"
-        },
-        {
-            "tag": "observationModelComponentOnConfirm",
-            "block": "// START_CUSTOM_CODE_observationModelComponentOnConfirm\n\n        // END_CUSTOM_CODE_observationModelComponentOnConfirm"
-        },
-        {
-            "tag": "observationModelComponentOnCancel",
-            "block": "// START_CUSTOM_CODE_observationModelComponentOnCancel\n\n        // END_CUSTOM_CODE_observationModelComponentOnCancel"
-        },
-        {
-            "tag": "observationModelComponentAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_observationModelComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_observationModelComponentAdditionalMethods"
-        },
-        {
-            "tag": "observationModelModuleImports",
-            "block": "// START_CUSTOM_CODE_observationModelModuleImports\n\n// END_CUSTOM_CODE_observationModelModuleImports"
-        },
-        {
-            "tag": "observationModelModuleImportDeclarations",
-            "block": "// START_CUSTOM_CODE_observationModelModuleImportDeclarations\n\n        // END_CUSTOM_CODE_observationModelModuleImportDeclarations"
-        },
-        {
-            "tag": "observationModelModuleProviders",
-            "block": "// START_CUSTOM_CODE_observationModelModuleProviders\n\n        // END_CUSTOM_CODE_observationModelModuleProviders"
-        },
-        {
-            "tag": "observationModelServiceImports",
-            "block": "// START_CUSTOM_CODE_observationModelServiceImports\n\n// END_CUSTOM_CODE_observationModelServiceImports"
-        },
-        {
-            "tag": "observationModelServiceAdditionalProperties",
-            "block": "// START_CUSTOM_CODE_observationModelServiceAdditionalProperties\n\n    // END_CUSTOM_CODE_observationModelServiceAdditionalProperties"
-        },
-        {
-            "tag": "observationModelServiceConstructorDependencies",
-            "block": "// START_CUSTOM_CODE_observationModelServiceConstructorDependencies\n\n        // END_CUSTOM_CODE_observationModelServiceConstructorDependencies"
-        },
-        {
-            "tag": "observationModelServiceConstructorMethod",
-            "block": "// START_CUSTOM_CODE_observationModelServiceConstructorMethod\n\n        // END_CUSTOM_CODE_observationModelServiceConstructorMethod"
-        },
-        {
-            "tag": "observationModelServiceAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_observationModelServiceAdditionalMethods\n\n    // END_CUSTOM_CODE_observationModelServiceAdditionalMethods"
-        },
-        {
-            "tag": "observationModelComponentImports",
-            "block": "// START_CUSTOM_CODE_observationModelComponentImports\n\n// END_CUSTOM_CODE_observationModelComponentImports"
-        },
-        {
-            "tag": "observationModelComponentProperties",
-            "block": "// START_CUSTOM_CODE_observationModelComponentProperties\n\n    // END_CUSTOM_CODE_observationModelComponentProperties"
-        },
-        {
-            "tag": "observationModelComponentConstructorDependencies",
-            "block": "// START_CUSTOM_CODE_observationModelComponentConstructorDependencies\n\n        // END_CUSTOM_CODE_observationModelComponentConstructorDependencies"
-        },
-        {
-            "tag": "observationModelComponentConstructorMethod",
-            "block": "// START_CUSTOM_CODE_observationModelComponentConstructorMethod\n\n        // END_CUSTOM_CODE_observationModelComponentConstructorMethod"
-        },
-        {
-            "tag": "observationModelComponentOnInit",
-            "block": "// START_CUSTOM_CODE_observationModelComponentOnInit\n\n        // END_CUSTOM_CODE_observationModelComponentOnInit"
-        },
-        {
-            "tag": "observationModelComponentOnConfirm",
-            "block": "// START_CUSTOM_CODE_observationModelComponentOnConfirm\n\n        // END_CUSTOM_CODE_observationModelComponentOnConfirm"
-        },
-        {
-            "tag": "observationModelComponentOnCancel",
-            "block": "// START_CUSTOM_CODE_observationModelComponentOnCancel\n\n        // END_CUSTOM_CODE_observationModelComponentOnCancel"
-        },
-        {
-            "tag": "observationModelComponentAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_observationModelComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_observationModelComponentAdditionalMethods"
-        },
-        {
-            "tag": "observationModelModuleImports",
-            "block": "// START_CUSTOM_CODE_observationModelModuleImports\n\n// END_CUSTOM_CODE_observationModelModuleImports"
-        },
-        {
-            "tag": "observationModelModuleImportDeclarations",
-            "block": "// START_CUSTOM_CODE_observationModelModuleImportDeclarations\n\n        // END_CUSTOM_CODE_observationModelModuleImportDeclarations"
-        },
-        {
-            "tag": "observationModelModuleProviders",
-            "block": "// START_CUSTOM_CODE_observationModelModuleProviders\n\n        // END_CUSTOM_CODE_observationModelModuleProviders"
-        },
-        {
-            "tag": "observationModelServiceImports",
-            "block": "// START_CUSTOM_CODE_observationModelServiceImports\n\n// END_CUSTOM_CODE_observationModelServiceImports"
-        },
-        {
-            "tag": "observationModelServiceAdditionalProperties",
-            "block": "// START_CUSTOM_CODE_observationModelServiceAdditionalProperties\n\n    // END_CUSTOM_CODE_observationModelServiceAdditionalProperties"
-        },
-        {
-            "tag": "observationModelServiceConstructorDependencies",
-            "block": "// START_CUSTOM_CODE_observationModelServiceConstructorDependencies\n\n        // END_CUSTOM_CODE_observationModelServiceConstructorDependencies"
-        },
-        {
-            "tag": "observationModelServiceConstructorMethod",
-            "block": "// START_CUSTOM_CODE_observationModelServiceConstructorMethod\n\n        // END_CUSTOM_CODE_observationModelServiceConstructorMethod"
-        },
-        {
-            "tag": "observationModelServiceAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_observationModelServiceAdditionalMethods\n\n    // END_CUSTOM_CODE_observationModelServiceAdditionalMethods"
-        },
-        {
-            "tag": "usersModelComponentImports",
-            "block": "// START_CUSTOM_CODE_usersModelComponentImports\n\n// END_CUSTOM_CODE_usersModelComponentImports"
-        },
-        {
-            "tag": "usersModelComponentProperties",
-            "block": "// START_CUSTOM_CODE_usersModelComponentProperties\n\n    // END_CUSTOM_CODE_usersModelComponentProperties"
-        },
-        {
-            "tag": "usersModelComponentConstructorDependencies",
-            "block": "// START_CUSTOM_CODE_usersModelComponentConstructorDependencies\n\n        // END_CUSTOM_CODE_usersModelComponentConstructorDependencies"
-        },
-        {
-            "tag": "usersModelComponentConstructorMethod",
-            "block": "// START_CUSTOM_CODE_usersModelComponentConstructorMethod\n\n        // END_CUSTOM_CODE_usersModelComponentConstructorMethod"
-        },
-        {
-            "tag": "usersModelComponentOnInit",
-            "block": "// START_CUSTOM_CODE_usersModelComponentOnInit\n\n        // END_CUSTOM_CODE_usersModelComponentOnInit"
-        },
-        {
-            "tag": "usersModelComponentCustomLoad",
-            "block": "// START_CUSTOM_CODE_usersModelComponentCustomLoad\n\n                    // END_CUSTOM_CODE_usersModelComponentCustomLoad"
-        },
-        {
-            "tag": "usersModelComponentAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_usersModelComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_usersModelComponentAdditionalMethods"
-        },
-        {
-            "tag": "usersModelModuleImports",
-            "block": "// START_CUSTOM_CODE_usersModelModuleImports\n\n// END_CUSTOM_CODE_usersModelModuleImports"
-        },
-        {
-            "tag": "usersModelModuleImportDeclaration",
-            "block": "// START_CUSTOM_CODE_usersModelModuleImportDeclaration\n\n        // END_CUSTOM_CODE_usersModelModuleImportDeclaration"
-        },
-        {
-            "tag": "usersModelComponentDeclarations",
-            "block": "// START_CUSTOM_CODE_usersModelComponentDeclarations\n\n        // END_CUSTOM_CODE_usersModelComponentDeclarations"
-        },
-        {
-            "tag": "usersModelModuleProviders",
-            "block": "// START_CUSTOM_CODE_usersModelModuleProviders\n\n        // END_CUSTOM_CODE_usersModelModuleProviders"
-        },
-        {
-            "tag": "usersModelServiceImports",
-            "block": "// START_CUSTOM_CODE_usersModelServiceImports\n\n// END_CUSTOM_CODE_usersModelServiceImports"
-        },
-        {
-            "tag": "usersModelServiceAdditionalProperties",
-            "block": "// START_CUSTOM_CODE_usersModelServiceAdditionalProperties\n\n    // END_CUSTOM_CODE_usersModelServiceAdditionalProperties"
-        },
-        {
-            "tag": "usersModelServiceConstructorDependencies",
-            "block": "// START_CUSTOM_CODE_usersModelServiceConstructorDependencies\n\n        // END_CUSTOM_CODE_usersModelServiceConstructorDependencies"
-        },
-        {
-            "tag": "usersModelServiceConstructorMethods",
-            "block": "// START_CUSTOM_CODE_usersModelServiceConstructorMethods\n\n        // END_CUSTOM_CODE_usersModelServiceConstructorMethods"
-        },
-        {
-            "tag": "usersModelServiceAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_usersModelServiceAdditionalMethods\n\n    // END_CUSTOM_CODE_usersModelServiceAdditionalMethods"
-        },
-        {
-            "tag": "usersModelDetailComponentProperties",
-            "block": "// START_CUSTOM_CODE_usersModelDetailComponentProperties\n\n    // END_CUSTOM_CODE_usersModelDetailComponentProperties"
-        },
-        {
-            "tag": "usersModelDetailComponentAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_usersModelDetailComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_usersModelDetailComponentAdditionalMethods"
-        },
-        {
             "tag": "usersModelComponentImports",
             "block": "// START_CUSTOM_CODE_usersModelComponentImports\n\n// END_CUSTOM_CODE_usersModelComponentImports"
         },
@@ -689,436 +489,76 @@
             "block": "// START_CUSTOM_CODE_patientsModelDetailComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelDetailComponentAdditionalMethods"
         },
         {
-            "tag": "patientsModelComponentImports",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentImports\n\n// END_CUSTOM_CODE_patientsModelComponentImports"
+            "tag": "observationsModelComponentImports",
+            "block": "// START_CUSTOM_CODE_observationsModelComponentImports\n\n// END_CUSTOM_CODE_observationsModelComponentImports"
         },
         {
-            "tag": "patientsModelComponentProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentProperties\n\n    // END_CUSTOM_CODE_patientsModelComponentProperties"
+            "tag": "observationsModelComponentProperties",
+            "block": "// START_CUSTOM_CODE_observationsModelComponentProperties\n\n    // END_CUSTOM_CODE_observationsModelComponentProperties"
         },
         {
-            "tag": "patientsModelComponentConstructorDependencies",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentConstructorDependencies\n\n        // END_CUSTOM_CODE_patientsModelComponentConstructorDependencies"
+            "tag": "observationsModelComponentConstructorDependencies",
+            "block": "// START_CUSTOM_CODE_observationsModelComponentConstructorDependencies\n\n        // END_CUSTOM_CODE_observationsModelComponentConstructorDependencies"
         },
         {
-            "tag": "patientsModelComponentConstructorMethod",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentConstructorMethod\n\n        // END_CUSTOM_CODE_patientsModelComponentConstructorMethod"
+            "tag": "observationsModelComponentConstructorMethod",
+            "block": "// START_CUSTOM_CODE_observationsModelComponentConstructorMethod\n\n        // END_CUSTOM_CODE_observationsModelComponentConstructorMethod"
         },
         {
-            "tag": "patientsModelComponentOnInit",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentOnInit\n\n        // END_CUSTOM_CODE_patientsModelComponentOnInit"
+            "tag": "observationsModelComponentOnInit",
+            "block": "// START_CUSTOM_CODE_observationsModelComponentOnInit\n\n        // END_CUSTOM_CODE_observationsModelComponentOnInit"
         },
         {
-            "tag": "patientsModelComponentCustomLoad",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentCustomLoad\n\n                        // END_CUSTOM_CODE_patientsModelComponentCustomLoad"
+            "tag": "observationsModelComponentCustomLoad",
+            "block": "// START_CUSTOM_CODE_observationsModelComponentCustomLoad\n\n                        // END_CUSTOM_CODE_observationsModelComponentCustomLoad"
         },
         {
-            "tag": "patientsModelComponentAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelComponentAdditionalMethods"
+            "tag": "observationsModelComponentAdditionalMethods",
+            "block": "// START_CUSTOM_CODE_observationsModelComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_observationsModelComponentAdditionalMethods"
         },
         {
-            "tag": "patientsModelModuleImports",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleImports\n\n// END_CUSTOM_CODE_patientsModelModuleImports"
+            "tag": "observationsModelModuleImports",
+            "block": "// START_CUSTOM_CODE_observationsModelModuleImports\n\n// END_CUSTOM_CODE_observationsModelModuleImports"
         },
         {
-            "tag": "patientsModelModuleImportDeclaration",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleImportDeclaration\n\n        // END_CUSTOM_CODE_patientsModelModuleImportDeclaration"
+            "tag": "observationsModelModuleImportDeclaration",
+            "block": "// START_CUSTOM_CODE_observationsModelModuleImportDeclaration\n\n        // END_CUSTOM_CODE_observationsModelModuleImportDeclaration"
         },
         {
-            "tag": "patientsModelComponentDeclarations",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentDeclarations\n\n        // END_CUSTOM_CODE_patientsModelComponentDeclarations"
+            "tag": "observationsModelComponentDeclarations",
+            "block": "// START_CUSTOM_CODE_observationsModelComponentDeclarations\n\n        // END_CUSTOM_CODE_observationsModelComponentDeclarations"
         },
         {
-            "tag": "patientsModelModuleProviders",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleProviders\n\n        // END_CUSTOM_CODE_patientsModelModuleProviders"
+            "tag": "observationsModelModuleProviders",
+            "block": "// START_CUSTOM_CODE_observationsModelModuleProviders\n\n        // END_CUSTOM_CODE_observationsModelModuleProviders"
         },
         {
-            "tag": "patientsModelServiceImports",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceImports\n\n// END_CUSTOM_CODE_patientsModelServiceImports"
+            "tag": "observationsModelServiceImports",
+            "block": "// START_CUSTOM_CODE_observationsModelServiceImports\n\n// END_CUSTOM_CODE_observationsModelServiceImports"
         },
         {
-            "tag": "patientsModelServiceAdditionalProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceAdditionalProperties\n\n    // END_CUSTOM_CODE_patientsModelServiceAdditionalProperties"
+            "tag": "observationsModelServiceAdditionalProperties",
+            "block": "// START_CUSTOM_CODE_observationsModelServiceAdditionalProperties\n\n    // END_CUSTOM_CODE_observationsModelServiceAdditionalProperties"
         },
         {
-            "tag": "patientsModelServiceConstructorDependencies",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceConstructorDependencies\n\n        // END_CUSTOM_CODE_patientsModelServiceConstructorDependencies"
+            "tag": "observationsModelServiceConstructorDependencies",
+            "block": "// START_CUSTOM_CODE_observationsModelServiceConstructorDependencies\n\n        // END_CUSTOM_CODE_observationsModelServiceConstructorDependencies"
         },
         {
-            "tag": "patientsModelServiceConstructorMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceConstructorMethods\n\n        // END_CUSTOM_CODE_patientsModelServiceConstructorMethods"
+            "tag": "observationsModelServiceConstructorMethods",
+            "block": "// START_CUSTOM_CODE_observationsModelServiceConstructorMethods\n\n        // END_CUSTOM_CODE_observationsModelServiceConstructorMethods"
         },
         {
-            "tag": "patientsModelServiceAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelServiceAdditionalMethods"
+            "tag": "observationsModelServiceAdditionalMethods",
+            "block": "// START_CUSTOM_CODE_observationsModelServiceAdditionalMethods\n\n    // END_CUSTOM_CODE_observationsModelServiceAdditionalMethods"
         },
         {
-            "tag": "patientsModelDetailComponentProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelDetailComponentProperties\n\n    // END_CUSTOM_CODE_patientsModelDetailComponentProperties"
+            "tag": "observationsModelDetailComponentProperties",
+            "block": "// START_CUSTOM_CODE_observationsModelDetailComponentProperties\n\n    // END_CUSTOM_CODE_observationsModelDetailComponentProperties"
         },
         {
-            "tag": "patientsModelDetailComponentAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelDetailComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelDetailComponentAdditionalMethods"
-        },
-        {
-            "tag": "patientsModelComponentImports",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentImports\n\n// END_CUSTOM_CODE_patientsModelComponentImports"
-        },
-        {
-            "tag": "patientsModelComponentProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentProperties\n\n    // END_CUSTOM_CODE_patientsModelComponentProperties"
-        },
-        {
-            "tag": "patientsModelComponentConstructorDependencies",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentConstructorDependencies\n\n        // END_CUSTOM_CODE_patientsModelComponentConstructorDependencies"
-        },
-        {
-            "tag": "patientsModelComponentConstructorMethod",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentConstructorMethod\n\n        // END_CUSTOM_CODE_patientsModelComponentConstructorMethod"
-        },
-        {
-            "tag": "patientsModelComponentOnInit",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentOnInit\n\n        // END_CUSTOM_CODE_patientsModelComponentOnInit"
-        },
-        {
-            "tag": "patientsModelComponentCustomLoad",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentCustomLoad\n\n                        // END_CUSTOM_CODE_patientsModelComponentCustomLoad"
-        },
-        {
-            "tag": "patientsModelComponentAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelComponentAdditionalMethods"
-        },
-        {
-            "tag": "patientsModelModuleImports",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleImports\n\n// END_CUSTOM_CODE_patientsModelModuleImports"
-        },
-        {
-            "tag": "patientsModelModuleImportDeclaration",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleImportDeclaration\n\n        // END_CUSTOM_CODE_patientsModelModuleImportDeclaration"
-        },
-        {
-            "tag": "patientsModelComponentDeclarations",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentDeclarations\n\n        // END_CUSTOM_CODE_patientsModelComponentDeclarations"
-        },
-        {
-            "tag": "patientsModelModuleProviders",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleProviders\n\n        // END_CUSTOM_CODE_patientsModelModuleProviders"
-        },
-        {
-            "tag": "patientsModelServiceImports",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceImports\n\n// END_CUSTOM_CODE_patientsModelServiceImports"
-        },
-        {
-            "tag": "patientsModelServiceAdditionalProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceAdditionalProperties\n\n    // END_CUSTOM_CODE_patientsModelServiceAdditionalProperties"
-        },
-        {
-            "tag": "patientsModelServiceConstructorDependencies",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceConstructorDependencies\n\n        // END_CUSTOM_CODE_patientsModelServiceConstructorDependencies"
-        },
-        {
-            "tag": "patientsModelServiceConstructorMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceConstructorMethods\n\n        // END_CUSTOM_CODE_patientsModelServiceConstructorMethods"
-        },
-        {
-            "tag": "patientsModelServiceAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelServiceAdditionalMethods"
-        },
-        {
-            "tag": "patientsModelDetailComponentProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelDetailComponentProperties\n\n    // END_CUSTOM_CODE_patientsModelDetailComponentProperties"
-        },
-        {
-            "tag": "patientsModelDetailComponentAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelDetailComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelDetailComponentAdditionalMethods"
-        },
-        {
-            "tag": "patientsModelComponentImports",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentImports\n\n// END_CUSTOM_CODE_patientsModelComponentImports"
-        },
-        {
-            "tag": "patientsModelComponentProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentProperties\n\n    // END_CUSTOM_CODE_patientsModelComponentProperties"
-        },
-        {
-            "tag": "patientsModelComponentConstructorDependencies",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentConstructorDependencies\n\n        // END_CUSTOM_CODE_patientsModelComponentConstructorDependencies"
-        },
-        {
-            "tag": "patientsModelComponentConstructorMethod",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentConstructorMethod\n\n        // END_CUSTOM_CODE_patientsModelComponentConstructorMethod"
-        },
-        {
-            "tag": "patientsModelComponentOnInit",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentOnInit\n\n        // END_CUSTOM_CODE_patientsModelComponentOnInit"
-        },
-        {
-            "tag": "patientsModelComponentCustomLoad",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentCustomLoad\n\n                        // END_CUSTOM_CODE_patientsModelComponentCustomLoad"
-        },
-        {
-            "tag": "patientsModelComponentAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelComponentAdditionalMethods"
-        },
-        {
-            "tag": "patientsModelModuleImports",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleImports\n\n// END_CUSTOM_CODE_patientsModelModuleImports"
-        },
-        {
-            "tag": "patientsModelModuleImportDeclaration",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleImportDeclaration\n\n        // END_CUSTOM_CODE_patientsModelModuleImportDeclaration"
-        },
-        {
-            "tag": "patientsModelComponentDeclarations",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentDeclarations\n\n        // END_CUSTOM_CODE_patientsModelComponentDeclarations"
-        },
-        {
-            "tag": "patientsModelModuleProviders",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleProviders\n\n        // END_CUSTOM_CODE_patientsModelModuleProviders"
-        },
-        {
-            "tag": "patientsModelServiceImports",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceImports\n\n// END_CUSTOM_CODE_patientsModelServiceImports"
-        },
-        {
-            "tag": "patientsModelServiceAdditionalProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceAdditionalProperties\n\n    // END_CUSTOM_CODE_patientsModelServiceAdditionalProperties"
-        },
-        {
-            "tag": "patientsModelServiceConstructorDependencies",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceConstructorDependencies\n\n        // END_CUSTOM_CODE_patientsModelServiceConstructorDependencies"
-        },
-        {
-            "tag": "patientsModelServiceConstructorMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceConstructorMethods\n\n        // END_CUSTOM_CODE_patientsModelServiceConstructorMethods"
-        },
-        {
-            "tag": "patientsModelServiceAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelServiceAdditionalMethods"
-        },
-        {
-            "tag": "patientsModelDetailComponentProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelDetailComponentProperties\n\n    // END_CUSTOM_CODE_patientsModelDetailComponentProperties"
-        },
-        {
-            "tag": "patientsModelDetailComponentAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelDetailComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelDetailComponentAdditionalMethods"
-        },
-        {
-            "tag": "patientsModelComponentImports",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentImports\n\n// END_CUSTOM_CODE_patientsModelComponentImports"
-        },
-        {
-            "tag": "patientsModelComponentProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentProperties\n\n    // END_CUSTOM_CODE_patientsModelComponentProperties"
-        },
-        {
-            "tag": "patientsModelComponentConstructorDependencies",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentConstructorDependencies\n\n        // END_CUSTOM_CODE_patientsModelComponentConstructorDependencies"
-        },
-        {
-            "tag": "patientsModelComponentConstructorMethod",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentConstructorMethod\n\n        // END_CUSTOM_CODE_patientsModelComponentConstructorMethod"
-        },
-        {
-            "tag": "patientsModelComponentOnInit",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentOnInit\n\n        // END_CUSTOM_CODE_patientsModelComponentOnInit"
-        },
-        {
-            "tag": "patientsModelComponentCustomLoad",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentCustomLoad\n\n                        // END_CUSTOM_CODE_patientsModelComponentCustomLoad"
-        },
-        {
-            "tag": "patientsModelComponentAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelComponentAdditionalMethods"
-        },
-        {
-            "tag": "patientsModelModuleImports",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleImports\n\n// END_CUSTOM_CODE_patientsModelModuleImports"
-        },
-        {
-            "tag": "patientsModelModuleImportDeclaration",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleImportDeclaration\n\n        // END_CUSTOM_CODE_patientsModelModuleImportDeclaration"
-        },
-        {
-            "tag": "patientsModelComponentDeclarations",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentDeclarations\n\n        // END_CUSTOM_CODE_patientsModelComponentDeclarations"
-        },
-        {
-            "tag": "patientsModelModuleProviders",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleProviders\n\n        // END_CUSTOM_CODE_patientsModelModuleProviders"
-        },
-        {
-            "tag": "patientsModelServiceImports",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceImports\n\n// END_CUSTOM_CODE_patientsModelServiceImports"
-        },
-        {
-            "tag": "patientsModelServiceAdditionalProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceAdditionalProperties\n\n    // END_CUSTOM_CODE_patientsModelServiceAdditionalProperties"
-        },
-        {
-            "tag": "patientsModelServiceConstructorDependencies",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceConstructorDependencies\n\n        // END_CUSTOM_CODE_patientsModelServiceConstructorDependencies"
-        },
-        {
-            "tag": "patientsModelServiceConstructorMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceConstructorMethods\n\n        // END_CUSTOM_CODE_patientsModelServiceConstructorMethods"
-        },
-        {
-            "tag": "patientsModelServiceAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelServiceAdditionalMethods"
-        },
-        {
-            "tag": "patientsModelDetailComponentProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelDetailComponentProperties\n\n    // END_CUSTOM_CODE_patientsModelDetailComponentProperties"
-        },
-        {
-            "tag": "patientsModelDetailComponentAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelDetailComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelDetailComponentAdditionalMethods"
-        },
-        {
-            "tag": "patientsModelComponentImports",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentImports\n\n// END_CUSTOM_CODE_patientsModelComponentImports"
-        },
-        {
-            "tag": "patientsModelComponentProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentProperties\n\n    // END_CUSTOM_CODE_patientsModelComponentProperties"
-        },
-        {
-            "tag": "patientsModelComponentConstructorDependencies",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentConstructorDependencies\n\n        // END_CUSTOM_CODE_patientsModelComponentConstructorDependencies"
-        },
-        {
-            "tag": "patientsModelComponentConstructorMethod",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentConstructorMethod\n\n        // END_CUSTOM_CODE_patientsModelComponentConstructorMethod"
-        },
-        {
-            "tag": "patientsModelComponentOnInit",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentOnInit\n\n        // END_CUSTOM_CODE_patientsModelComponentOnInit"
-        },
-        {
-            "tag": "patientsModelComponentCustomLoad",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentCustomLoad\n\n                        // END_CUSTOM_CODE_patientsModelComponentCustomLoad"
-        },
-        {
-            "tag": "patientsModelComponentAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelComponentAdditionalMethods"
-        },
-        {
-            "tag": "patientsModelModuleImports",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleImports\n\n// END_CUSTOM_CODE_patientsModelModuleImports"
-        },
-        {
-            "tag": "patientsModelModuleImportDeclaration",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleImportDeclaration\n\n        // END_CUSTOM_CODE_patientsModelModuleImportDeclaration"
-        },
-        {
-            "tag": "patientsModelComponentDeclarations",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentDeclarations\n\n        // END_CUSTOM_CODE_patientsModelComponentDeclarations"
-        },
-        {
-            "tag": "patientsModelModuleProviders",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleProviders\n\n        // END_CUSTOM_CODE_patientsModelModuleProviders"
-        },
-        {
-            "tag": "patientsModelServiceImports",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceImports\n\n// END_CUSTOM_CODE_patientsModelServiceImports"
-        },
-        {
-            "tag": "patientsModelServiceAdditionalProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceAdditionalProperties\n\n    // END_CUSTOM_CODE_patientsModelServiceAdditionalProperties"
-        },
-        {
-            "tag": "patientsModelServiceConstructorDependencies",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceConstructorDependencies\n\n        // END_CUSTOM_CODE_patientsModelServiceConstructorDependencies"
-        },
-        {
-            "tag": "patientsModelServiceConstructorMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceConstructorMethods\n\n        // END_CUSTOM_CODE_patientsModelServiceConstructorMethods"
-        },
-        {
-            "tag": "patientsModelServiceAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelServiceAdditionalMethods"
-        },
-        {
-            "tag": "patientsModelDetailComponentProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelDetailComponentProperties\n\n    // END_CUSTOM_CODE_patientsModelDetailComponentProperties"
-        },
-        {
-            "tag": "patientsModelDetailComponentAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelDetailComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelDetailComponentAdditionalMethods"
-        },
-        {
-            "tag": "patientsModelComponentImports",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentImports\n\n// END_CUSTOM_CODE_patientsModelComponentImports"
-        },
-        {
-            "tag": "patientsModelComponentProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentProperties\n\n    // END_CUSTOM_CODE_patientsModelComponentProperties"
-        },
-        {
-            "tag": "patientsModelComponentConstructorDependencies",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentConstructorDependencies\n\n        // END_CUSTOM_CODE_patientsModelComponentConstructorDependencies"
-        },
-        {
-            "tag": "patientsModelComponentConstructorMethod",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentConstructorMethod\n\n        // END_CUSTOM_CODE_patientsModelComponentConstructorMethod"
-        },
-        {
-            "tag": "patientsModelComponentOnInit",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentOnInit\n\n        // END_CUSTOM_CODE_patientsModelComponentOnInit"
-        },
-        {
-            "tag": "patientsModelComponentCustomLoad",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentCustomLoad\n\n                        // END_CUSTOM_CODE_patientsModelComponentCustomLoad"
-        },
-        {
-            "tag": "patientsModelComponentAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelComponentAdditionalMethods"
-        },
-        {
-            "tag": "patientsModelModuleImports",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleImports\n\n// END_CUSTOM_CODE_patientsModelModuleImports"
-        },
-        {
-            "tag": "patientsModelModuleImportDeclaration",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleImportDeclaration\n\n        // END_CUSTOM_CODE_patientsModelModuleImportDeclaration"
-        },
-        {
-            "tag": "patientsModelComponentDeclarations",
-            "block": "// START_CUSTOM_CODE_patientsModelComponentDeclarations\n\n        // END_CUSTOM_CODE_patientsModelComponentDeclarations"
-        },
-        {
-            "tag": "patientsModelModuleProviders",
-            "block": "// START_CUSTOM_CODE_patientsModelModuleProviders\n\n        // END_CUSTOM_CODE_patientsModelModuleProviders"
-        },
-        {
-            "tag": "patientsModelServiceImports",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceImports\n\n// END_CUSTOM_CODE_patientsModelServiceImports"
-        },
-        {
-            "tag": "patientsModelServiceAdditionalProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceAdditionalProperties\n\n    // END_CUSTOM_CODE_patientsModelServiceAdditionalProperties"
-        },
-        {
-            "tag": "patientsModelServiceConstructorDependencies",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceConstructorDependencies\n\n        // END_CUSTOM_CODE_patientsModelServiceConstructorDependencies"
-        },
-        {
-            "tag": "patientsModelServiceConstructorMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceConstructorMethods\n\n        // END_CUSTOM_CODE_patientsModelServiceConstructorMethods"
-        },
-        {
-            "tag": "patientsModelServiceAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelServiceAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelServiceAdditionalMethods"
-        },
-        {
-            "tag": "patientsModelDetailComponentProperties",
-            "block": "// START_CUSTOM_CODE_patientsModelDetailComponentProperties\n\n    // END_CUSTOM_CODE_patientsModelDetailComponentProperties"
-        },
-        {
-            "tag": "patientsModelDetailComponentAdditionalMethods",
-            "block": "// START_CUSTOM_CODE_patientsModelDetailComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_patientsModelDetailComponentAdditionalMethods"
+            "tag": "observationsModelDetailComponentAdditionalMethods",
+            "block": "// START_CUSTOM_CODE_observationsModelDetailComponentAdditionalMethods\n\n    // END_CUSTOM_CODE_observationsModelDetailComponentAdditionalMethods"
         }
     ]
 }

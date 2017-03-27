@@ -71,11 +71,12 @@ var LoginService = (function () {
     LoginService.prototype.clearCredentials = function () {
         Storage.clear();
     };
-    LoginService = __decorate([
-        core_1.Injectable(), 
-        __metadata('design:paramtypes', [shared.backendServicesService])
-    ], LoginService);
     return LoginService;
 }());
+LoginService = __decorate([
+    core_1.Injectable(),
+    __metadata("design:paramtypes", [typeof (_a = (typeof shared !== "undefined" && shared).backendServicesService) === "function" && _a || Object])
+], LoginService);
 exports.LoginService = LoginService;
+var _a;
 //# sourceMappingURL=login.service.js.map

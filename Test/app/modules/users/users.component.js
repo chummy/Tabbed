@@ -172,15 +172,16 @@ var UsersComponent = (function () {
         }
         this._mode = mode;
     };
-    UsersComponent = __decorate([
-        core_1.Component({
-            moduleId: module.id,
-            selector: "ns-users",
-            templateUrl: "users.component.html"
-        }), 
-        __metadata('design:paramtypes', [common.UsersService])
-    ], UsersComponent);
     return UsersComponent;
 }());
+UsersComponent = __decorate([
+    core_1.Component({
+        moduleId: module.id,
+        selector: "ns-users",
+        templateUrl: "users.component.html"
+    }),
+    __metadata("design:paramtypes", [typeof (_a = (typeof common !== "undefined" && common).UsersService) === "function" && _a || Object])
+], UsersComponent);
 exports.UsersComponent = UsersComponent;
+var _a;
 //# sourceMappingURL=users.component.js.map

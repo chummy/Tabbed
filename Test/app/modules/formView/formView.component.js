@@ -63,27 +63,28 @@ var FormViewComponent = (function () {
         // START_CUSTOM_CODE_formViewModelComponentOnCancel
         // END_CUSTOM_CODE_formViewModelComponentOnCancel
     };
-    __decorate([
-        core_1.ViewChild("textField2"), 
-        __metadata('design:type', Object)
-    ], FormViewComponent.prototype, "textField2Inst", void 0);
-    __decorate([
-        core_1.ViewChild("textField1"), 
-        __metadata('design:type', Object)
-    ], FormViewComponent.prototype, "textField1Inst", void 0);
-    __decorate([
-        core_1.ViewChild("textField"), 
-        __metadata('design:type', Object)
-    ], FormViewComponent.prototype, "textFieldInst", void 0);
-    FormViewComponent = __decorate([
-        core_1.Component({
-            moduleId: module.id,
-            selector: "ns-formView",
-            templateUrl: "formView.component.html"
-        }), 
-        __metadata('design:paramtypes', [shared.NotificationService, common.FormViewService])
-    ], FormViewComponent);
     return FormViewComponent;
 }());
+__decorate([
+    core_1.ViewChild("textField2"),
+    __metadata("design:type", Object)
+], FormViewComponent.prototype, "textField2Inst", void 0);
+__decorate([
+    core_1.ViewChild("textField1"),
+    __metadata("design:type", Object)
+], FormViewComponent.prototype, "textField1Inst", void 0);
+__decorate([
+    core_1.ViewChild("textField"),
+    __metadata("design:type", Object)
+], FormViewComponent.prototype, "textFieldInst", void 0);
+FormViewComponent = __decorate([
+    core_1.Component({
+        moduleId: module.id,
+        selector: "ns-formView",
+        templateUrl: "formView.component.html"
+    }),
+    __metadata("design:paramtypes", [typeof (_a = (typeof shared !== "undefined" && shared).NotificationService) === "function" && _a || Object, typeof (_b = (typeof common !== "undefined" && common).FormViewService) === "function" && _b || Object])
+], FormViewComponent);
 exports.FormViewComponent = FormViewComponent;
+var _a, _b;
 //# sourceMappingURL=formView.component.js.map

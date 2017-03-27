@@ -78,27 +78,28 @@ var ObservationComponent = (function () {
         // START_CUSTOM_CODE_observationModelComponentOnCancel
         // END_CUSTOM_CODE_observationModelComponentOnCancel
     };
-    __decorate([
-        core_1.ViewChild("hyperlink"), 
-        __metadata('design:type', Object)
-    ], ObservationComponent.prototype, "hyperlinkInst", void 0);
-    __decorate([
-        core_1.ViewChild("userDropDown"), 
-        __metadata('design:type', Object)
-    ], ObservationComponent.prototype, "userDropDownInst", void 0);
-    __decorate([
-        core_1.ViewChild("commentField"), 
-        __metadata('design:type', Object)
-    ], ObservationComponent.prototype, "commentFieldInst", void 0);
-    ObservationComponent = __decorate([
-        core_1.Component({
-            moduleId: module.id,
-            selector: "ns-observation",
-            templateUrl: "observation.component.html"
-        }), 
-        __metadata('design:paramtypes', [shared.NotificationService, common.ObservationService])
-    ], ObservationComponent);
     return ObservationComponent;
 }());
+__decorate([
+    core_1.ViewChild("hyperlink"),
+    __metadata("design:type", Object)
+], ObservationComponent.prototype, "hyperlinkInst", void 0);
+__decorate([
+    core_1.ViewChild("userDropDown"),
+    __metadata("design:type", Object)
+], ObservationComponent.prototype, "userDropDownInst", void 0);
+__decorate([
+    core_1.ViewChild("commentField"),
+    __metadata("design:type", Object)
+], ObservationComponent.prototype, "commentFieldInst", void 0);
+ObservationComponent = __decorate([
+    core_1.Component({
+        moduleId: module.id,
+        selector: "ns-observation",
+        templateUrl: "observation.component.html"
+    }),
+    __metadata("design:paramtypes", [typeof (_a = (typeof shared !== "undefined" && shared).NotificationService) === "function" && _a || Object, typeof (_b = (typeof common !== "undefined" && common).ObservationService) === "function" && _b || Object])
+], ObservationComponent);
 exports.ObservationComponent = ObservationComponent;
+var _a, _b;
 //# sourceMappingURL=observation.component.js.map

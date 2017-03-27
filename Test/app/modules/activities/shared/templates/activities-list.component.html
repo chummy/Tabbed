@@ -1,0 +1,26 @@
+<GridLayout rows="*, auto">
+    <ListView class="list-group" [items]="items">
+        <template let-item="item">
+            <GridLayout class="list-group-item" rows="auto, auto" (tap)="onSelect(item)">
+                <GridLayout columns="auto, 10, *" rows="auto, auto">
+
+
+                    <StackLayout col="2">
+
+                        <Label class="list-group-item-heading" [text]="item.data.Activities"></Label>
+
+
+                    </StackLayout>
+                </GridLayout>
+
+                <GridLayout row="1">
+                    <!--- master detail form -->
+                </GridLayout>
+            </GridLayout>
+        </template>
+    </ListView>
+
+
+    <ActivityIndicator class="activity-indicator" rowSpan="2" [busy]="!items.length" [visibility]="items.length ? 'collapse' : 'visible'">
+    </ActivityIndicator>
+</GridLayout>

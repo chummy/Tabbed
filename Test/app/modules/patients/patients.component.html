@@ -17,17 +17,6 @@
     </GridLayout>
 
 
-    <GridLayout *ngIf="mode == modes.ADD">
-        <ns-patients-add [current]="currentItem$ | async" [service]="service" (add)="onAdd($event)">
-        </ns-patients-add>
-    </GridLayout>
-
-
-    <GridLayout *ngIf="mode == modes.EDIT">
-        <ns-patients-edit [current]="currentItem$ | async" [service]="service" (update)="onUpdate($event)" (delete)="onDelete($event)">
-        </ns-patients-edit>
-    </GridLayout>
-
 </GridLayout>
 <!-- additional view content -->
 

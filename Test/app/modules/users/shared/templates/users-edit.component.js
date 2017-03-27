@@ -28,45 +28,46 @@ var UsersEditComponent = (function () {
             item: this.item
         });
     };
-    __decorate([
-        core_1.Input(), 
-        __metadata('design:type', Object)
-    ], UsersEditComponent.prototype, "service", void 0);
-    __decorate([
-        core_1.Input(), 
-        __metadata('design:type', Object), 
-        __metadata('design:paramtypes', [Object])
-    ], UsersEditComponent.prototype, "current", null);
-    __decorate([
-        core_1.Output(), 
-        __metadata('design:type', Object)
-    ], UsersEditComponent.prototype, "update", void 0);
-    __decorate([
-        core_1.Output(), 
-        __metadata('design:type', Object)
-    ], UsersEditComponent.prototype, "delete", void 0);
-    __decorate([
-        core_1.ViewChild("passwordField"), 
-        __metadata('design:type', Object)
-    ], UsersEditComponent.prototype, "passwordFieldInst", void 0);
-    __decorate([
-        core_1.ViewChild("emailField"), 
-        __metadata('design:type', Object)
-    ], UsersEditComponent.prototype, "emailFieldInst", void 0);
-    __decorate([
-        core_1.ViewChild("usernameField"), 
-        __metadata('design:type', Object)
-    ], UsersEditComponent.prototype, "usernameFieldInst", void 0);
-    UsersEditComponent = __decorate([
-        core_1.Component({
-            moduleId: module.id,
-            selector: "ns-users-edit",
-            templateUrl: "users-edit.component.html",
-            changeDetection: core_1.ChangeDetectionStrategy.OnPush
-        }), 
-        __metadata('design:paramtypes', [])
-    ], UsersEditComponent);
     return UsersEditComponent;
 }());
+__decorate([
+    core_1.Input(),
+    __metadata("design:type", Object)
+], UsersEditComponent.prototype, "service", void 0);
+__decorate([
+    core_1.Input(),
+    __metadata("design:type", typeof (_a = (typeof shared !== "undefined" && shared).Item) === "function" && _a || Object),
+    __metadata("design:paramtypes", [typeof (_b = (typeof shared !== "undefined" && shared).Item) === "function" && _b || Object])
+], UsersEditComponent.prototype, "current", null);
+__decorate([
+    core_1.Output(),
+    __metadata("design:type", Object)
+], UsersEditComponent.prototype, "update", void 0);
+__decorate([
+    core_1.Output(),
+    __metadata("design:type", Object)
+], UsersEditComponent.prototype, "delete", void 0);
+__decorate([
+    core_1.ViewChild("passwordField"),
+    __metadata("design:type", Object)
+], UsersEditComponent.prototype, "passwordFieldInst", void 0);
+__decorate([
+    core_1.ViewChild("emailField"),
+    __metadata("design:type", Object)
+], UsersEditComponent.prototype, "emailFieldInst", void 0);
+__decorate([
+    core_1.ViewChild("usernameField"),
+    __metadata("design:type", Object)
+], UsersEditComponent.prototype, "usernameFieldInst", void 0);
+UsersEditComponent = __decorate([
+    core_1.Component({
+        moduleId: module.id,
+        selector: "ns-users-edit",
+        templateUrl: "users-edit.component.html",
+        changeDetection: core_1.ChangeDetectionStrategy.OnPush
+    }),
+    __metadata("design:paramtypes", [])
+], UsersEditComponent);
 exports.UsersEditComponent = UsersEditComponent;
+var _a, _b;
 //# sourceMappingURL=users-edit.component.js.map
