@@ -27,6 +27,7 @@ export class PatientsDetailComponent {@
     // END_CUSTOM_CODE_patientsModelDetailComponentProperties
 
     /// Add fields instance
+@ViewChild("obsLink") obsLinkInst;
 @ViewChild("wardField") wardFieldInst;
 @ViewChild("surnameField") surnameFieldInst;
 @ViewChild("patientNoField") patientNoFieldInst;

@@ -34,6 +34,10 @@ __decorate([
     __metadata("design:type", Object)
 ], PatientsDetailComponent.prototype, "navigate", void 0);
 __decorate([
+    core_1.ViewChild("obsLink"),
+    __metadata("design:type", Object)
+], PatientsDetailComponent.prototype, "obsLinkInst", void 0);
+__decorate([
     core_1.ViewChild("wardField"),
     __metadata("design:type", Object)
 ], PatientsDetailComponent.prototype, "wardFieldInst", void 0);

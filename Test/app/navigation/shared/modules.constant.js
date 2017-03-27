@@ -10,6 +10,9 @@ var formView_module_1 = require("../../modules/formView/formView.module");
 var patientsDetailView_module_1 = require("../../modules/patientsDetailView/patientsDetailView.module");
 exports.MODULES = [
     /// start modules declaration
+    patients_module_1.PatientsModule,
+    patients_module_1.PatientsModule,
+    patientsDetailView_module_1.PatientsDetailViewModule,
     patientsDetailView_module_1.PatientsDetailViewModule,
     patientsDetailView_module_1.PatientsDetailViewModule,
     patients_module_1.PatientsModule,

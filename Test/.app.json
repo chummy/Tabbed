@@ -68,7 +68,7 @@
           "endlessScroll": false,
           "itemActionView": "userDetailView",
           "itemActionPrimaryKey": "Id",
-          "itemActionSecondaryKey": "DisplayName",
+          "itemActionSecondaryKey": "Username",
           "detailHeaderFieldSource": "dataBound",
           "detailHeaderField": "NameField",
           "detailSubHeaderField": "NameField"
@@ -625,6 +625,16 @@
                   "inputType": "textBlock",
                   "titlePosition": "left",
                   "dataBindingOptional": "wardField"
+                },
+                {
+                  "type": "nativescript-angular:editableListFormField",
+                  "name": "obsLink",
+                  "dataBindingRelationChildren": "[]",
+                  "title": "Observations",
+                  "inputType": "link",
+                  "linkType": "view",
+                  "linkToView": "patientsDetailView",
+                  "dataBindingLinkText": "PatMPIDField"
                 }
               ],
               "name": "editableListForm47",
