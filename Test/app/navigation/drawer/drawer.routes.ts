@@ -1,17 +1,17 @@
 import { ModuleWithProviders }  from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 
-import { TabMenuComponent } from "./tabstrip.component";
+import { DrawerMenuComponent } from "./drawer.component";
 
 import * as common from "../shared";
 import * as shared from "../../shared";
 
-const tabMenuRoutes: Routes = [
+const drawerMenuRoutes: Routes = [
   {
     path: "nav",
-    component: TabMenuComponent,
+    component: DrawerMenuComponent,
     children: [...common.ROUTES]
   }
 ];
 
-export const tabMenuRouting: ModuleWithProviders = RouterModule.forChild(tabMenuRoutes);
+export const drawerMenuRouting: ModuleWithProviders = RouterModule.forChild(drawerMenuRoutes);

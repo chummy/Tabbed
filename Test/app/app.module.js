@@ -9,7 +9,7 @@ var app_component_1 = require("./app.component");
 /// additional required modules
 var mapbox = require("nativescript-mapbox");
 element_registry_1.registerElement("Mapbox", function () { return mapbox.Mapbox; });
-var tabstrip_module_1 = require("./navigation/tabstrip/tabstrip.module");
+var drawer_module_1 = require("./navigation/drawer/drawer.module");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -21,7 +21,7 @@ AppModule = __decorate([
             platform_1.NativeScriptModule,
             router_1.NativeScriptRouterModule,
             router_1.NativeScriptRouterModule.forRoot(app_routes_1.appRoutes),
-            tabstrip_module_1.TabstripMenuModule
+            drawer_module_1.DrawerMenuModule
         ],
         declarations: [
             app_component_1.AppComponent

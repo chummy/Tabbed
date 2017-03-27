@@ -3,8 +3,10 @@ import { NgModule } from "@angular/core";
 import { NativeScriptModule } from "nativescript-angular/platform";
 import { NativeScriptRouterModule } from "nativescript-angular/router";
 
-import { tabMenuRouting } from "./tabstrip.routes";
-import { TabMenuComponent } from "./tabstrip.component";
+import { SIDEDRAWER_DIRECTIVES } from "nativescript-telerik-ui/sidedrawer/angular";
+
+import { drawerMenuRouting } from "./drawer.routes";
+import { DrawerMenuComponent } from "./drawer.component";
 import { SharedModule } from "../../shared/shared.module";
 
 import * as common from "../shared";
@@ -14,12 +16,13 @@ import * as shared from "../../shared";
   imports: [
     NativeScriptModule,
     NativeScriptRouterModule,
-    tabMenuRouting,
+    drawerMenuRouting,
     SharedModule,
     ...common.MODULES
   ],
   declarations: [
-    TabMenuComponent
+    DrawerMenuComponent,
+    SIDEDRAWER_DIRECTIVES
   ]
 })
-export class TabstripMenuModule { }
+export class DrawerMenuModule {}

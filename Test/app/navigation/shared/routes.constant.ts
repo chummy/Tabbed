@@ -4,10 +4,6 @@ import {
 from "@angular/router";
 
 /// modules imports
-import { ObservationsComponent } from "../../modules/observations/observations.component";
-import { ClinicalComponent } from "../../modules/clinical/clinical.component";
-import { ActivitiesComponent } from "../../modules/activities/activities.component";
-import { VisitComponent } from "../../modules/visit/visit.component";
 import { PatientsComponent } from "../../modules/patients/patients.component";
 import { UsersComponent } from "../../modules/users/users.component";
 import { ObservationComponent } from "../../modules/observation/observation.component";
@@ -19,10 +15,6 @@ import { PatientsDetailViewComponent } from "../../modules/patientsDetailView/pa
 
 export const ROUTES: Routes = [
     /// start routes declaration
-{ path: "observations", component: ObservationsComponent },
-{ path: "clinical", component: ClinicalComponent },
-{ path: "activities", component: ActivitiesComponent },
-{ path: "visit", component: VisitComponent },
 { path: "patients", component: PatientsComponent },
 { path: "users", component: UsersComponent },
 { path: "observation", component: ObservationComponent },
@@ -33,7 +25,7 @@ export const ROUTES: Routes = [
 { path: "patientsDetailView", component: PatientsDetailViewComponent },
     {
         path: "",
-        component: PatientsComponent
+        component: PatientsDetailViewComponent
     }
     /// end routes declaration
 ];

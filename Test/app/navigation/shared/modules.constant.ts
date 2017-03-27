@@ -1,8 +1,4 @@
 /// modules imports
-import { ObservationsModule } from "../../modules/observations/observations.module";
-import { ClinicalModule } from "../../modules/clinical/clinical.module";
-import { ActivitiesModule } from "../../modules/activities/activities.module";
-import { VisitModule } from "../../modules/visit/visit.module";
 import { PatientsModule } from "../../modules/patients/patients.module";
 import { UsersModule } from "../../modules/users/users.module";
 import { ObservationModule } from "../../modules/observation/observation.module";
@@ -14,11 +10,7 @@ import { PatientsDetailViewModule } from "../../modules/patientsDetailView/patie
 
 export const MODULES = [
 /// start modules declaration
-ObservationsModule,
-ObservationsModule,
-ClinicalModule,
-ActivitiesModule,
-VisitModule,
+PatientsModule,
 PatientsModule,
 PatientsModule,
 UsersModule,

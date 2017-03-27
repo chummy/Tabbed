@@ -28,9 +28,9 @@ const mapbox = require("nativescript-mapbox");
 registerElement("Mapbox", () => mapbox.Mapbox);
 
 import {
-    TabstripMenuModule as NavigationModule
+    DrawerMenuModule as NavigationModule
 }
-from "./navigation/tabstrip/tabstrip.module";
+from "./navigation/drawer/drawer.module";
 
 @
 NgModule({

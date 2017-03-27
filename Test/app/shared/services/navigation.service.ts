@@ -33,7 +33,7 @@ export class NavigationService {
     constructor(
         private _router: Router
     ) {
-        this._mode = this._modes.TABSTRIP;
+        this._mode = this._modes.DRAWER;
         this._routes = [
             { path: "patientsDetailView", title: "My Patients", icon: "\uf2c3" },
 { path: "formView", title: "Form", icon: "\uf02e" },
